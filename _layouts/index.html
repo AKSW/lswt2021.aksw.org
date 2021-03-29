@@ -8,19 +8,19 @@ type: Event
 <div class="section" id="HomeSection" data-anchor="Home">
 </div>
 
+<div class="landing-menu">
+  <a href="#Programm" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:programm" | rdf_property: "rdfs:label", page.language }}</a>
+  <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a>
+  <a href="{{ rootResource | rdf_property: "site:invitation" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:invitation" | rdf_property: "rdfs:label", page.language }}</a>
+  <a href="{{ rootResource | rdf_property: "site:flyer" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:flyer" | rdf_property: "rdfs:label", page.language }}</a>
+</div>
+
 <div class="section" id="DateSection" data-anchor="Date">
   <div class="container">
     <div class="jumbotron">
       #LSWT2019
       <h1 class="display-4">{{ rootResource | rdf_property: "rdfs:label", page.language }}</h1>
       {{ rootResource | rdf_property: "rdfs:comment", page.language | markdownify }}
-
-      <p>
-        <a href="#Programm" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:programm" | rdf_property: "rdfs:label", page.language }}</a>
-        <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a>
-        <a href="{{ rootResource | rdf_property: "site:invitation" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:invitation" | rdf_property: "rdfs:label", page.language }}</a>
-        <a href="{{ rootResource | rdf_property: "site:flyer" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:flyer" | rdf_property: "rdfs:label", page.language }}</a>
-      </p>
 
       <dl>
         <dt>{{ "schema:startDate" | rdf_property: "rdfs:label", page.language }}</dt>
@@ -217,7 +217,7 @@ type: Event
     </ul>
     {% else %}
     <h2 class="display-4">Technik</h2>
-    Die Seite wurde mit <a href="https://github.com/AKSW/jekyll-rdf">Jekyll RDF</a> + <a href="https://getbootstrap.com/">bootstrap</a> + <a href="https://alvarotrigo.com/fullPage/">fullPage.js</a> gebaut.
+    Die Seite wurde mit <a href="https://github.com/AKSW/jekyll-rdf">Jekyll RDF</a> + <a href="https://getbootstrap.com/">bootstrap</a> gebaut.
     <h2 class="display-4">Impressum</h2>
     <ul class="nav flex-column">
       <li><a href="https://infai.org/das-institut/impressum/">Impressum</a></li>

@@ -1,3 +1,48 @@
+:root {
+  --menu-height: 4rem;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#HomeSection, #landing {
+  display: flex;
+  /* height: 100%; */
+  height: calc(100% - var(--menu-height));
+  margin: 0rem;
+  padding: 0rem;
+  text-align: center;
+}
+
+.landing-title {
+  left: 0;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.landing-menu {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: var(--menu-height);
+  text-align: center;
+}
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
 h3, .h3 {
   font-size: 1.5rem;
 }
@@ -60,33 +105,27 @@ a {
 .section {
   background-size: cover;
   background-position: center;
-  // background-image: url("/images/bg/bg.png")
 }
 
 #DateSection {
-  background-image: url("/images/bg/About.jpg")
 }
 
 #LocationSection {
 }
 
 #ProgrammSection {
-  background-image: url("/images/bg/Programm.jpg")
 }
 
 #TeamSection {
-  //background-image: url("/images/bg/Location.jpg")
 }
 
 #PartnerSection {
-  background-image: url("/images/bg/Partner.jpg")
 }
 
 #HackatonSection {
 }
 
 #PreviousSection {
-  //background-image: url("/images/bg/Partner.jpg")
 }
 
 .pause {

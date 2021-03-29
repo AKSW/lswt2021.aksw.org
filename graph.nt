@@ -4,6 +4,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lswt2019.aksw.
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://lswt2019.aksw.org/#dachterrasse> .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2020.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2020" .
+<https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "7. Leipziger Semantic Web Tag"@de .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "7th Leipzig Semantic Web Day"@en .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Leipziger Semantic Web Tag (LSWT) bietet [seit 2009](#PreviousEvents) WissenschaftlernInnen, Unternehmen und Organisationen die M\u00F6glichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vortr\u00E4gen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert ([Programm](#Programm)).\n  Falls Sie weitere Fragen haben k\u00F6nnen Sie sich auch gerne an das [Organisations-Team](#Team) wenden. Das InfAI organisiert und unterst\u00FCtzt rundum den LSWT weitere Events. Verpassen Sie nicht die [Language, Data and Knowledge (LDK) Konferenz](http://2019.ldk-conf.org/) (20.- 22. Mai) an der Universit\u00E4t Leipzig oder das [13. DBpedia Community Meeting](https://wiki.dbpedia.org/meetings/Leipzig2019) am 23. Mai 2019 am Mediencampus Villa Ida. "@de .
@@ -117,15 +119,17 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://lswt2019.aksw.
 <https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventSeries> .
 <https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00FCckblick"@de .
 <https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "Previous Events"@en .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://informatik2017.de/ws29-ledsplay17/> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2016.semantics.cc/> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2014.semantics.cc/> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://web.archive.org/web/20150530150440/http://wiki.aksw.org/Events/2012/LeipzigerSemanticWebDay> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://web.archive.org/web/20131219160129/http://wiki.aksw.org/Events/2010/LeipzigerSemanticWebDay> .
-<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2020.aksw.org/> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://lswt2019.aksw.org/> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://informatik2017.de/ws29-ledsplay17/> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2016.semantics.cc/> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2014.semantics.cc/> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://web.archive.org/web/20150530150440/http://wiki.aksw.org/Events/2012/LeipzigerSemanticWebDay> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://web.archive.org/web/20131219160129/http://wiki.aksw.org/Events/2010/LeipzigerSemanticWebDay> .
+<https://lswt2019.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> .
 <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2018" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
