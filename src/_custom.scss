@@ -91,16 +91,12 @@ a {
 #HomeSection {
   background-size: cover;
   background-position: center;
-  background-image: url("/images/Web_BG_pfade_narrow.svg")
+  background-image: url("/images/Web_BG_pfade.svg")
 }
-
-@media (min-aspect-ratio: 6/5) { /* and (max-aspect-ratio: 15/5)  */
-  #HomeSection {
-    background-size: cover;
-    background-position: center;
-    background-image: url("/images/Web_BG_pfade.svg")
-  }
-}
+//
+// @media (min-aspect-ratio: 6/5) { /* and (max-aspect-ratio: 15/5)  */
+//
+// }
 
 .section {
   background-size: cover;
