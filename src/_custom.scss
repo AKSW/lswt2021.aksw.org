@@ -20,14 +20,23 @@ body {
   text-align: center;
 }
 
-.landing-title {
+.landing-title-top {
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 20%;
   left: 0;
-  margin: 0.5rem;
+  right: 0;
+}
+.landing-title-bottom {
+  margin: auto;
   padding: 0.5rem;
   position: absolute;
+  left: 0;
   right: 0;
   top: 40%;
 }
+
 .landing-menu {
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -35,6 +44,7 @@ body {
   height: var(--menu-height);
   text-align: center;
 }
+
 
 div.sticky {
   position: -webkit-sticky; /* Safari */
@@ -86,7 +96,6 @@ a {
 .programNav h2 {
   font-weight: bold;
 }
-
 
 #HomeSection {
   background-size: cover;
