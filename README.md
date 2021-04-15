@@ -1,4 +1,4 @@
-This is the Source for the LSWT2019: https://lswt2019.aksw.org/
+This is the Source for the LSWT2021: https://lswt2021.aksw.org/
 
 To prepare the Java Script
 ```
