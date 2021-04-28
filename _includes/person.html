@@ -5,9 +5,9 @@
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
 <div class="lswt-card">
   {% if depiction %}
-    <img class="mw-100 rounded" src="{{ depiction }}" alt="{{ name }}">
+    <img class="mw-100 rounded" src="{{ depiction.render_path | relativize_url }}" alt="{{ name }}">
   {% else %}
-    <img class="mw-100 rounded" src="/images/people/placeholder.svg" alt="{{ name }}">
+    <img class="mw-100 rounded" src="{% relative_link /images/people/placeholder.svg %}" alt="{{ name }}">
   {% endif %}
   <h5 class="lswt-card-title">
   {% if homepage %}
@@ -22,7 +22,7 @@
     {% unless depiction %}
       {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
     {% endunless %}
-    <a href="{{ homepage }}"><img src="{{ depiction }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
+    <a href="{{ homepage }}"><img src="{{ depiction.render_path | relativize_url }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
     {% endfor %}
   </p>
 </div>
