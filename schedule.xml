@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+    <version>2021-04-28_21-36</version>
+    <conference><title>9. Leipziger Semantic Web Tag</title>
+        <acronym></acronym>
+        <start>2021-07-07</start>
+        <end>2021-07-07</end>
+        <generator>Jekyll v3.6.3</generator>
+    </conference>
+    <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
+    </day>
+</schedule>
