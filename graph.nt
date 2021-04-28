@@ -46,11 +46,11 @@
 <http://aksw.org/RoyMeissner> <http://purl.org/dc/elements/1.1/description> "[AKSW](http://aksw.org/)/[Universit\u00E4t Leipzig](http://www.uni-leipzig.de/)" .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
-<http://aksw.org/SandraBartsch> <http://schema.org/affiliation> <http://aksw.org/Group> .
-<http://aksw.org/SandraBartsch> <http://schema.org/affiliation> <https://infai.org/> .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SandraBartsch.png" .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/name> "Sandra Bartsch" .
+<http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <http://aksw.org/Group> .
+<http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SandraBartsch.png" .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/elements/1.1/description> "Director @ [DBpedia Association](https://dbpedia.org/)" .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
@@ -158,22 +158,19 @@
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
-<https://lswt2021.aksw.org/#StefanWolff> <http://purl.org/dc/elements/1.1/description> "[S\u00E4chsische Landesbibliothek \u2013 Staats- und Universit\u00E4tsbibliothek Dresden (SLUB)](https://www.slub-dresden.de/startseite/), [FID move](http://www.fid-move.de/)/[Forschungskompass](http://www.forschungskompass.de/)" .
-<https://lswt2021.aksw.org/#StefanWolff> <http://xmlns.com/foaf/0.1/name> "Stefan Wolff" .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/MichaelMartin> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/NatanaelArndt> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/SandraBartsch> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/JuliaHolze> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://lswt2021.aksw.org/#NievesSande> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team"@en .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
-<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JuliaHolze> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MichaelMartin> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NatanaelArndt> .
-<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraBartsch> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
 <https://lswt2021.aksw.org/#begruessung> <http://ns.ontowiki.net/SysOnt/Site/id> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#begruessung> <http://schema.org/duration> "00:10" .
 <https://lswt2021.aksw.org/#begruessung> <http://schema.org/endDate> "2021-07-07T09:10+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
