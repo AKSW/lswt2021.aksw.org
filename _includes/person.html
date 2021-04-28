@@ -3,34 +3,26 @@
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
-<div class="card">
-  <div class="row">
-    <div class="col-md-4 pr-0">
-      {% if depiction %}
-        <img class="mw-100 rounded" src="{{ depiction }}" alt="{{ name }}">
-      {% else %}
-        <img class="mw-100 rounded" src="/images/people/placeholder.svg" alt="{{ name }}">
-      {% endif %}
-    </div>
-    <div class="col-md-8">
-      <div class="pt-mt-2">
-        <h5 class="card-title">
-        {% if homepage %}
-          <a href="{{ homepage }}">{{ name }}</a>
-        {% else %}
-        {{ name }}
-        {% endif %}
-        </h5>
-        <p class="card-text">
-          {% for affiliation in affiliations %}
-          {% assign depiction = affiliation | rdf_property: "site:small_depiction" %}
-          {% unless depiction %}
-            {% assign depiction = affiliation | rdf_property: "foaf:depiction" %}
-          {% endunless %}
-          <a href="{{ homepage }}"><img src="{{ depiction }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="mw-100 {% unless forloop.last and forloop.first %}w-md-40{% endunless %}"></a>
-          {% endfor %}
-        </p>
-      </div>
-    </div>
-  </div>
+<div class="lswt-card">
+  {% if depiction %}
+    <img class="mw-100 rounded" src="{{ depiction }}" alt="{{ name }}">
+  {% else %}
+    <img class="mw-100 rounded" src="/images/people/placeholder.svg" alt="{{ name }}">
+  {% endif %}
+  <h5 class="lswt-card-title">
+  {% if homepage %}
+    <a href="{{ homepage }}">{{ name }}</a>
+  {% else %}
+  {{ name }}
+  {% endif %}
+  </h5>
+  <p>
+    {% for affiliation in affiliations %}
+    {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+    {% unless depiction %}
+      {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
+    {% endunless %}
+    <a href="{{ homepage }}"><img src="{{ depiction }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
+    {% endfor %}
+  </p>
 </div>

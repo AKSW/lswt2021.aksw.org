@@ -7,7 +7,7 @@
       {% for partner in partnersList %}
       <div class="card">
         <a href="{{ partner | rdf_property: "foaf:homepage" }}">
-        <img src="{{ partner | rdf_property: "foaf:depiction" }}" class="mw-100 px-3 py-3">
+        <img src="{{ partner | rdf_property: "foaf:logo" }}" class="mw-100 px-3 py-3">
         </a>
       </div>
     {% endfor %}
@@ -15,14 +15,10 @@
     {% assign sponsors = rootResource | rdf_property: "schema:sponsor" %}
     <h2>{{ sponsors | rdf_property: "rdfs:label", page.language }}</h2>
     {% assign sponsorsList = sponsors | rdf_container %}
-    <div class="lswt-card-columns">
-      {% for sponsor in sponsorsList %}
-      <div class="card">
-        <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
-        <img src="{{ sponsor | rdf_property: "foaf:depiction" }}" class="w-100 px-3 py-3">
-        </a>
-      </div>
+    {% for sponsor in sponsorsList %}
+      <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
+      <img src="{{ sponsor | rdf_property: "foaf:logo" }}" class="w-100 px-3 py-3">
+      </a>
     {% endfor %}
-    </div>
   </div>
 </div>

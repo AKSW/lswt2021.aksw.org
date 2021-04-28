@@ -7,7 +7,7 @@
     {% assign previousEventsList = previousEvents | rdf_container %}
     <div class="lswt-card-columns">
     {% for prev in previousEventsList %}
-    <div class="card px-3 py-3"><h5 class="card-title"><a href="{{ prev.iri }}">{{ prev | rdf_property: "rdfs:label" }}</a></h5></div>
+    <div class="lswt-card"><h5 class="lswt-card-title"><a href="{{ prev.iri }}">{{ prev | rdf_property: "rdfs:label" }}</a></h5></div>
     {% endfor %}
     </div>
   </div>

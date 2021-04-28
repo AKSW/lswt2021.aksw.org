@@ -85,6 +85,34 @@ a {
   font-style: italic;
 }
 
+.partnerlogo {
+  height: 10rem;
+}
+
+.lswt-card-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 5px;
+}
+
+.lswt-card-columns > div {
+  font-size: 30px;
+  padding: .5em;
+}
+
+.lswt-card {
+  text-align: center;
+}
+
+.lswt-card .title {
+  height: 2.2em;
+}
+
+.lswt-card .logo {
+  width: 7rem;
+  margin: .25rem 0;
+}
+
 //
 // @media (min-aspect-ratio: 6/5) { /* and (max-aspect-ratio: 15/5)  */
 //

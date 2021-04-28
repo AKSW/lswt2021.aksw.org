@@ -4,9 +4,9 @@
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
 <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2013" .
-<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_depiction> "/images/partner/AKSW_Logo_small.svg" .
-<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/depiction> "/images/partner/AKSW_Logo.svg" .
+<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/name> "AKSW" .
 <http://aksw.org/JensLehmann> <http://purl.org/dc/elements/1.1/description> "Standortleiter Dresden @ [Fraunhofer IAIS](https://www.iais.fraunhofer.de/de/institut/dresden.html)" .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.iais.fraunhofer.de/de/institut/mitarbeiterprofile/jens-lehmann.html> .
@@ -49,13 +49,14 @@
 <http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SandraBartsch.png" .
-<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SandraFuchs> .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/elements/1.1/description> "Director @ [DBpedia Association](https://dbpedia.org/)" .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianTramp> <http://purl.org/dc/elements/1.1/description> "CTO @ [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianTramp.png" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
@@ -81,16 +82,17 @@
 <http://sda.tech/Person/MichaelGalkin> <http://xmlns.com/foaf/0.1/name> "Dr. Michael Galkin" .
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
-<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_depiction> "/images/partner/DBpediaLogo.svg" .
-<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/depiction> "/images/partner/DBpediaLogo_sq.svg" .
+<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo_sq.svg" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/name> "DBpedia Association" .
-<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/depiction> "/images/partner/logo-htwk.svg" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
+<https://htwk-leipzig.de/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk.svg" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "HTWK Leipzig" .
-<https://infai.org/> <http://ns.ontowiki.net/SysOnt/Site/small_depiction> "/images/partner/InfAI_small.svg" .
-<https://infai.org/> <http://xmlns.com/foaf/0.1/depiction> "/images/partner/InfAI_h.svg" .
+<https://infai.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/InfAI_small.svg" .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_h.svg" .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/name> "InfAI" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
@@ -288,9 +290,9 @@
 <https://web.archive.org/web/20150530150440/http://wiki.aksw.org/Events/2012/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2012 " .
 <https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2009" .
 <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2018" .
-<https://www.eccenca.com/> <http://ns.ontowiki.net/SysOnt/Site/small_depiction> "/images/partner/eccenca_w.svg" .
-<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/depiction> "/images/partner/eccenca_h.svg" .
+<https://www.eccenca.com/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/eccenca_w.svg" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_h.svg" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/name> "eccenca GmbH" .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "Universit\u00E4t Leipzig" .
