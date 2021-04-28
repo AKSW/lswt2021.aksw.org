@@ -1,0 +1,9 @@
+
+<div class="section" id="Access">
+  <div class="container">
+    <h2>{{ location | rdf_property: "rdfs:label", page.language }}</h2>
+
+    {% assign seeAlso = location | rdf_property: "rdfs:seeAlso" %}
+    {{ location | rdf_property: "rdfs:comment", page.language | markdownify }}
+  </div>
+</div>

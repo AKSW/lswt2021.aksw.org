@@ -1,0 +1,28 @@
+<div class="section" id="Partner">
+  <div class="container">
+    {% assign partners = rootResource | rdf_property: "schema:partner" %}
+    <h2 {{ partners | rdf_property: "rdfs:label", page.language }}</h2>
+    {% assign partnersList = partners | rdf_container %}
+    <div class="lswt-card-columns">
+      {% for partner in partnersList %}
+      <div class="card">
+        <a href="{{ partner | rdf_property: "foaf:homepage" }}">
+        <img src="{{ partner | rdf_property: "foaf:depiction" }}" class="mw-100 px-3 py-3">
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+    {% assign sponsors = rootResource | rdf_property: "schema:sponsor" %}
+    <h2>{{ sponsors | rdf_property: "rdfs:label", page.language }}</h2>
+    {% assign sponsorsList = sponsors | rdf_container %}
+    <div class="lswt-card-columns">
+      {% for sponsor in sponsorsList %}
+      <div class="card">
+        <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
+        <img src="{{ sponsor | rdf_property: "foaf:depiction" }}" class="w-100 px-3 py-3">
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

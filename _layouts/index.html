@@ -13,21 +13,20 @@ type: Event
     {% assign partners = rootResource | rdf_property: "schema:partner" %}
     {% assign partnersList = partners | rdf_container %}
     {% for partner in partnersList %}
-      <img src="{{ partner | rdf_property: "foaf:depiction" }}">
+      <img class="partnerlogo" src="{{ partner | rdf_property: "foaf:depiction" }}">
     {% endfor %}
   </div>
 </div>
 
 <div class="landing-menu">
-  <a href="#Programm" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:programm" | rdf_property: "rdfs:label", page.language }}</a>
-  <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a>
-  <a href="{{ rootResource | rdf_property: "site:invitation" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:invitation" | rdf_property: "rdfs:label", page.language }}</a>
-  <a href="{{ rootResource | rdf_property: "site:flyer" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:flyer" | rdf_property: "rdfs:label", page.language }}</a>
+  <!-- <a href="#Programm" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:programm" | rdf_property: "rdfs:label", page.language }}</a> -->
+  <!-- <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a> -->
+  <!-- <a href="{{ rootResource | rdf_property: "site:invitation" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:invitation" | rdf_property: "rdfs:label", page.language }}</a> -->
+  <!-- <a href="{{ rootResource | rdf_property: "site:flyer" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:flyer" | rdf_property: "rdfs:label", page.language }}</a> -->
 </div>
 
 <div class="section" id="Date">
   <div class="container">
-    <div class="jumbotron">
       #LSWT2021
       <h1 class="display-4">{{ rootResource | rdf_property: "rdfs:label", page.language }}</h1>
       {{ rootResource | rdf_property: "rdfs:comment", page.language | markdownify }}
@@ -39,187 +38,21 @@ type: Event
         <dt>{{ location | rdf_property: "rdfs:label", page.language }}</dt>
         <dd><a href="{{ location.page_url }}">t.b.a.</a></dd>
       </dl>
-    </div>
   </div>
 </div>
 
-<div class="section" id="Access">
-  <div class="container">
-    <h2>{{ location | rdf_property: "rdfs:label", page.language }}</h2>
+{% include sec_access.html %}
 
-    {% assign seeAlso = location | rdf_property: "rdfs:seeAlso" %}
-    {{ location | rdf_property: "rdfs:comment", page.language | markdownify }}
-  </div>
-</div>
+{% comment %}
+{% include sec_programm.html %}
+{% endcomment %}
 
-<div class="section" id="Programm">
-  {% if page.language == "en" %}
-  {% assign programmLabel = "Schedule" %}
-  {% assign programmDisclaimer = "The schedule might change without notice." %}
-  {% else %}
-  {% assign programmLabel = "Programm" %}
-  {% assign programmDisclaimer = "Das Programm kann sich jederzeit ohne Vorankündigung ändern." %}
-  {% endif %}
+{% include sec_team.html %}
 
-  {%- assign rooms = rootResource | rdf_container: "site:rooms" -%}
-  {% for room in rooms %}
-  <div class="container" id="{{ room | split: "#" | last }}">
-    <h2 style="display: inline">{{ room | rdf_property: "rdfs:label", page.language }}</h2>
+{% comment %}
+{% include sec_partner.html %}
+{% endcomment %}
 
-    <p>
-      <strong>{{programmLabel}}</strong> – <em>{{ programmDisclaimer }}</em>
-    </p>
-    <p>
-      {{ room | rdf_property: "rdfs:comment", page.language }}
-    </p>
+{% include sec_previous.html %}
 
-    {% capture events_query %}
-    SELECT ?event WHERE {
-      ?event schema:location <{{ room.iri }}>; schema:startDate ?date .
-      <{{ rootResource.iri }}> schema:subEvent ?event .
-    } ORDER BY ASC(?date)
-    {% endcapture %}
-
-    {% assign events = room | sparql_query: events_query %}
-    {%- for events_row in events -%}
-    {%- assign event = events_row.event -%}
-    {%- assign start = event | rdf_property: "schema:startDate" | date: "%H.%M" -%}
-    {%- assign end = event | rdf_property: "schema:endDate" | date: "%H.%M" -%}
-
-    {% assign track = event | rdf_property: "site:track" %}
-    {% assign pause = "lswt:pause" | rdf_get %}
-    {% if track == pause %}
-    <h3 class="pause">{{start}} bis {{end}}: {{ event | rdf_property: "rdfs:label", page.language }}</h3>
-    {% else %}
-    <h3 id="{{ event | split: "#" | last }}">{{start}} bis {{end}}: {{ event | rdf_property: "rdfs:label", page.language }}</h3>
-    {% endif %}
-    {% include performer.html event=event join="; " paragraph=true %}
-
-    {% assign description = event | rdf_property: "dc:description", page.language %}
-    {% if description %}
-    <p>{{ description }}</p>
-    {% endif %}
-
-    {% capture subEvents_query %}
-    SELECT ?event WHERE {
-      <{{ event.iri }}> schema:subEvent ?event .
-      ?event schema:startDate ?date .
-    } ORDER BY ASC(?date)
-    {% endcapture %}
-
-    {% assign subEvents = event | sparql_query: subEvents_query  %}
-
-    <ul>
-    {% for subEvent_row in subEvents %}
-    {% assign subEvent = subEvent_row.event %}
-    {% assign slideLink = subEvent | rdf_property: "schema:recordedIn" %}
-      <li>
-    {% if slideLink %}
-      „<a id="{{ subEvent | split: "#" | last }}" href="{{ subEvent | rdf_property: "schema:recordedIn" }}">{{ subEvent | rdf_property: "rdfs:label" }}</a>“
-    {% else %}
-      <a id="{{ subEvent | split: "#" | last }}"></a>„{{ subEvent | rdf_property: "rdfs:label" }}“
-    {% endif %}
-       – {% include performer.html event=subEvent join="; " %}
-       </li>
-    {% endfor %}
-    </ul>
-    {% endfor %}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="section" id="Team">
-  <div class="container">
-    {% assign organizers = rootResource | rdf_property: "schema:organizer" %}
-    <h2>{{ organizers | rdf_property: "rdfs:label", page.language }}</h2>
-
-    {% assign organizerTeam = organizers | rdf_container %}
-
-    {% include organizers.html organizers=organizerTeam %}
-    {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
-    {% for subEvent in subEvents %}
-    {% assign subOrganizers = subEvent | rdf_property: "schema:organizer" %}
-    {% if subOrganizers %}
-    <h3 class="display-5">{{ subOrganizers | rdf_property: "rdfs:label", page.language }}</h3>
-    {% assign subOrganizersTeam = subOrganizers | rdf_container %}
-    {% include organizers.html organizers=subOrganizersTeam %}
-    {% endif %}
-    {% endfor %}
-  </div>
-</div>
-
-<div class="section" id="Partner">
-  <div class="container">
-    {% assign partners = rootResource | rdf_property: "schema:partner" %}
-    <h2 {{ partners | rdf_property: "rdfs:label", page.language }}</h2>
-    {% assign partnersList = partners | rdf_container %}
-    <div class="lswt-card-columns">
-      {% for partner in partnersList %}
-      <div class="card">
-        <a href="{{ partner | rdf_property: "foaf:homepage" }}">
-        <img src="{{ partner | rdf_property: "foaf:depiction" }}" class="mw-100 px-3 py-3">
-        </a>
-      </div>
-    {% endfor %}
-    </div>
-    {% assign sponsors = rootResource | rdf_property: "schema:sponsor" %}
-    <h2>{{ sponsors | rdf_property: "rdfs:label", page.language }}</h2>
-    {% assign sponsorsList = sponsors | rdf_container %}
-    <div class="lswt-card-columns">
-      {% for sponsor in sponsorsList %}
-      <div class="card">
-        <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
-        <img src="{{ sponsor | rdf_property: "foaf:depiction" }}" class="w-100 px-3 py-3">
-        </a>
-      </div>
-    {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="section" id="PreviousEvents">
-  <div class="container">
-    {% assign previousEvents = rootResource | rdf_property: "schema:successorOf" %}
-    <h2>{{ previousEvents | rdf_property: "rdfs:label", page.language }}</h2>
-
-    {% assign previousEventsList = previousEvents | rdf_container %}
-    <div class="lswt-card-columns">
-    {% for prev in previousEventsList %}
-    <div class="card px-3 py-3"><h5 class="card-title"><a href="{{ prev.iri }}">{{ prev | rdf_property: "rdfs:label" }}</a></h5></div>
-    {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="section" id="Impressum">
-  <div class="container">
-    {% if page.language == "en" %}
-    <h2>Technique</h2>
-    This page is build with <a href="https://github.com/AKSW/jekyll-rdf">Jekyll RDF</a> + <a href="https://getbootstrap.com/">bootstrap</a> + <a href="https://alvarotrigo.com/fullPage/">fullPage.js</a>.
-    <h2>Imprint</h2>
-    <ul class="nav flex-column">
-      <li><a href="https://infai.org/das-institut/impressum/">Imprint</a></li>
-      <li><a href="#Datenschutz">Privacy Policy</a></li>
-      <li><a href="https://infai.org/das-institut/kontakt/">Contact</a></li>
-      <li>Copyright {{ 'now' | date: "%Y" }} Institut für Angewandte Informatik e.V.</li>
-    </ul>
-    {% else %}
-    <h2>Technik</h2>
-    Die Seite wurde mit <a href="https://github.com/AKSW/jekyll-rdf">Jekyll RDF</a> + <a href="https://getbootstrap.com/">bootstrap</a> gebaut.
-    <h2>Impressum</h2>
-    <ul class="nav flex-column">
-      <li><a href="https://infai.org/das-institut/impressum/">Impressum</a></li>
-      <li><a href="#Datenschutz">Datenschutzerklärung</a></li>
-      <li><a href="https://infai.org/das-institut/kontakt/">Kontaktformular</a></li>
-      <li>Copyright {{ 'now' | date: "%Y" }} Institut für Angewandte Informatik e.V.</li>
-    </ul>
-    {% endif %}
-  </div>
-</div>
-
-
-<div class="section" id="Datenschutz">
-  <div class="container">
-    {% include datenschutz.html %}
-  </div>
-</div>
+{% include sec_imprint.html %}

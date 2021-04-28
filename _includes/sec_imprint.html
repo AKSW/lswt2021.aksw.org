@@ -1,0 +1,33 @@
+
+<div class="section" id="Impressum">
+  <div class="container">
+    {% if page.language == "en" %}
+    <h2>Technique</h2>
+    This page is build with <a href="https://github.com/AKSW/jekyll-rdf">Jekyll RDF</a> + <a href="https://getbootstrap.com/">bootstrap</a> + <a href="https://alvarotrigo.com/fullPage/">fullPage.js</a>.
+    <h2>Imprint</h2>
+    <ul class="nav flex-column">
+      <li><a href="https://infai.org/das-institut/impressum/">Imprint</a></li>
+      <li><a href="#Datenschutz">Privacy Policy</a></li>
+      <li><a href="https://infai.org/das-institut/kontakt/">Contact</a></li>
+      <li>Copyright {{ 'now' | date: "%Y" }} Institut für Angewandte Informatik e.V.</li>
+    </ul>
+    {% else %}
+    <h2>Technik</h2>
+    Die Seite wurde mit <a href="https://github.com/AKSW/jekyll-rdf">Jekyll RDF</a> + <a href="https://getbootstrap.com/">bootstrap</a> gebaut.
+    <h2>Impressum</h2>
+    <ul class="nav flex-column">
+      <li><a href="https://infai.org/das-institut/impressum/">Impressum</a></li>
+      <li><a href="#Datenschutz">Datenschutzerklärung</a></li>
+      <li><a href="https://infai.org/das-institut/kontakt/">Kontaktformular</a></li>
+      <li>Copyright {{ 'now' | date: "%Y" }} Institut für Angewandte Informatik e.V.</li>
+    </ul>
+    {% endif %}
+  </div>
+</div>
+
+
+<div class="section" id="Datenschutz">
+  <div class="container">
+    {% include datenschutz.html %}
+  </div>
+</div>

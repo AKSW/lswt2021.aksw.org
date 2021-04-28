@@ -1,0 +1,14 @@
+
+<div class="section" id="PreviousEvents">
+  <div class="container">
+    {% assign previousEvents = rootResource | rdf_property: "schema:successorOf" %}
+    <h2>{{ previousEvents | rdf_property: "rdfs:label", page.language }}</h2>
+
+    {% assign previousEventsList = previousEvents | rdf_container %}
+    <div class="lswt-card-columns">
+    {% for prev in previousEventsList %}
+    <div class="card px-3 py-3"><h5 class="card-title"><a href="{{ prev.iri }}">{{ prev | rdf_property: "rdfs:label" }}</a></h5></div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

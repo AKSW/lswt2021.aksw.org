@@ -20,6 +20,14 @@ body {
   text-align: center;
 }
 
+#HomeSection {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/images/Web_BG_pfade.svg")
+}
+
 .landing-title-top {
   width: 80%;
   margin: auto;
@@ -45,24 +53,12 @@ body {
   text-align: center;
 }
 
-
-div.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-
 h3, .h3 {
   font-size: 1.5rem;
 }
 
 h4, .h4 {
   font-size: 1.3rem;
-}
-
-.dark-theme {
-  color: #e8ebed;
 }
 
 a {
@@ -79,59 +75,8 @@ a {
   background-color: #fff;
 }
 
-.jumbotron-program {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.programNav {
-  background-color: #a7d1e2;
-  font-size: 1.5rem;
-  text-align: center;
-  border-radius: 0.3rem;
-  padding: .5rem;
-  margin: .2rem 0rem .8rem;
-}
-
-.programNav h2 {
-  font-weight: bold;
-}
-
-#HomeSection {
-  background-size: cover;
-  background-position: center;
-  background-image: url("/images/Web_BG_pfade.svg")
-}
-//
-// @media (min-aspect-ratio: 6/5) { /* and (max-aspect-ratio: 15/5)  */
-//
-// }
-
 .section {
-  background-size: cover;
-  background-position: center;
   margin-top: 5rem;
-}
-
-#DateSection {
-}
-
-#LocationSection {
-}
-
-#ProgrammSection {
-}
-
-#TeamSection {
-}
-
-#PartnerSection {
-}
-
-#HackatonSection {
-}
-
-#PreviousSection {
 }
 
 .pause {
@@ -140,74 +85,50 @@ a {
   font-style: italic;
 }
 
-@include media-breakpoint-up(md) {
-  .w-md-40 {
-    width: 40%
-  }
-}
-
-.fp-controlArrow {
-  margin-right: 3rem;
-  margin-left: 3rem;
-}
+//
+// @media (min-aspect-ratio: 6/5) { /* and (max-aspect-ratio: 15/5)  */
+//
+// }
 
 
-.jumbotron-program h3 {
-  margin-bottom: 0rem
-}
+// @include media-breakpoint-up(md) {
+//   .w-md-40 {
+//     width: 40%
+//   }
+// }
 
-
-// Für Collapse
-div.collapse-group input[type=checkbox] {
-  display: none;
-}
-div.collapse-group input[type=checkbox] ~ label {
-  cursor: pointer;
-}
-div.collapse-group input[type=checkbox] ~ label h3:before {
-  content: "🢂 ";
-}
-div.collapse-group input[type=checkbox]:checked ~ label h3:before {
-  content: "🢆 ";
-}
-div.collapse-group input[type=checkbox] ~ label ~ .collapse {
-  display: none;
-}
-div.collapse-group input[type=checkbox]:checked ~ label ~ .collapse {
-  display: block;
-}
 
 //
 // Columns
 // https://github.com/twbs/bootstrap/blob/master/scss/_card.scss
 //
-
-.lswt-card-columns {
-  .card {
-    margin-bottom: $card-columns-margin;
-  }
-
-  @include media-breakpoint-up(sm) {
-    column-count: 2;
-    column-gap: $card-columns-gap;
-    orphans: 1;
-    widows: 1;
-
-    .card {
-      display: inline-block; // Don't let them vertically span multiple columns
-      width: 100%; // Don't let their width change
-    }
-  }
-
-  @include media-breakpoint-up(lg) {
-    column-count: 3;
-    column-gap: $card-columns-gap;
-    orphans: 1;
-    widows: 1;
-
-    .card {
-      display: inline-block; // Don't let them vertically span multiple columns
-      width: 100%; // Don't let their width change
-    }
-  }
-}
+//
+// .lswt-card-columns {
+//   .card {
+//     margin-bottom: $card-columns-margin;
+//   }
+//
+//   @include media-breakpoint-up(sm) {
+//     column-count: 2;
+//     column-gap: $card-columns-gap;
+//     orphans: 1;
+//     widows: 1;
+//
+//     .card {
+//       display: inline-block; // Don't let them vertically span multiple columns
+//       width: 100%; // Don't let their width change
+//     }
+//   }
+//
+//   @include media-breakpoint-up(lg) {
+//     column-count: 3;
+//     column-gap: $card-columns-gap;
+//     orphans: 1;
+//     widows: 1;
+//
+//     .card {
+//       display: inline-block; // Don't let them vertically span multiple columns
+//       width: 100%; // Don't let their width change
+//     }
+//   }
+// }

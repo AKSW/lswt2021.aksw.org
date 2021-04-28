@@ -1,0 +1,76 @@
+
+<div class="section" id="Programm">
+  {% if page.language == "en" %}
+  {% assign programmLabel = "Schedule" %}
+  {% assign programmDisclaimer = "The schedule might change without notice." %}
+  {% else %}
+  {% assign programmLabel = "Programm" %}
+  {% assign programmDisclaimer = "Das Programm kann sich jederzeit ohne Vorankündigung ändern." %}
+  {% endif %}
+
+  {%- assign rooms = rootResource | rdf_container: "site:rooms" -%}
+  {% for room in rooms %}
+  <div class="container" id="{{ room | split: "#" | last }}">
+    <h2 style="display: inline">{{ room | rdf_property: "rdfs:label", page.language }}</h2>
+
+    <p>
+      <strong>{{programmLabel}}</strong> – <em>{{ programmDisclaimer }}</em>
+    </p>
+    <p>
+      {{ room | rdf_property: "rdfs:comment", page.language }}
+    </p>
+
+    {% capture events_query %}
+    SELECT ?event WHERE {
+      ?event schema:location <{{ room.iri }}>; schema:startDate ?date .
+      <{{ rootResource.iri }}> schema:subEvent ?event .
+    } ORDER BY ASC(?date)
+    {% endcapture %}
+
+    {% assign events = room | sparql_query: events_query %}
+    {%- for events_row in events -%}
+    {%- assign event = events_row.event -%}
+    {%- assign start = event | rdf_property: "schema:startDate" | date: "%H.%M" -%}
+    {%- assign end = event | rdf_property: "schema:endDate" | date: "%H.%M" -%}
+
+    {% assign track = event | rdf_property: "site:track" %}
+    {% assign pause = "lswt:pause" | rdf_get %}
+    {% if track == pause %}
+    <h3 class="pause">{{start}} bis {{end}}: {{ event | rdf_property: "rdfs:label", page.language }}</h3>
+    {% else %}
+    <h3 id="{{ event | split: "#" | last }}">{{start}} bis {{end}}: {{ event | rdf_property: "rdfs:label", page.language }}</h3>
+    {% endif %}
+    {% include performer.html event=event join="; " paragraph=true %}
+
+    {% assign description = event | rdf_property: "dc:description", page.language %}
+    {% if description %}
+    <p>{{ description }}</p>
+    {% endif %}
+
+    {% capture subEvents_query %}
+    SELECT ?event WHERE {
+      <{{ event.iri }}> schema:subEvent ?event .
+      ?event schema:startDate ?date .
+    } ORDER BY ASC(?date)
+    {% endcapture %}
+
+    {% assign subEvents = event | sparql_query: subEvents_query  %}
+
+    <ul>
+    {% for subEvent_row in subEvents %}
+    {% assign subEvent = subEvent_row.event %}
+    {% assign slideLink = subEvent | rdf_property: "schema:recordedIn" %}
+      <li>
+    {% if slideLink %}
+      „<a id="{{ subEvent | split: "#" | last }}" href="{{ subEvent | rdf_property: "schema:recordedIn" }}">{{ subEvent | rdf_property: "rdfs:label" }}</a>“
+    {% else %}
+      <a id="{{ subEvent | split: "#" | last }}"></a>„{{ subEvent | rdf_property: "rdfs:label" }}“
+    {% endif %}
+       – {% include performer.html event=subEvent join="; " %}
+       </li>
+    {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
