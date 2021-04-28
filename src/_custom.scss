@@ -13,8 +13,8 @@ body {
 
 #HomeSection, #landing {
   display: flex;
-  /* height: 100%; */
-  height: calc(100% - var(--menu-height));
+  height: 100%;
+  // height: calc(100% - var(--menu-height));
   margin: 0rem;
   padding: 0rem;
   text-align: center;
@@ -36,6 +36,11 @@ body {
   left: 0;
   right: 0;
 }
+
+.landing-title-top img {
+  width: inherit;
+}
+
 .landing-title-bottom {
   margin: auto;
   padding: 0.5rem;
@@ -104,7 +109,8 @@ a {
   text-align: center;
 }
 
-.lswt-card .title {
+.lswt-card .lswt-card-title {
+  margin-top: .5rem;
   height: 2.2em;
 }
 
