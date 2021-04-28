@@ -10,7 +10,10 @@ module.exports = {
     rules: [
       {
         test: /.scss$/,
-        loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
+        use: ExtractTextPlugin.extract({
+          publicPath: '../../',
+          use: ['css-loader', 'sass-loader']
+        })
       }
     ]
   },
