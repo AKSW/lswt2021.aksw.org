@@ -22,9 +22,9 @@ rdf_prefix_path: _data/prefixes.sparql
     <meta property="og:type" content="article">
     <meta name="twitter:card" content="summary">
 
-    <meta name="description" content="{{ description | markdownify }}">
-    <meta name="og:description" content="{{ description | markdownify }}">
-    <meta name="twitter:description" content="{{ description | markdownify }}">
+    <meta name="description" content="{{ description | markdownify | strip_html }}">
+    <meta name="og:description" content="{{ description | markdownify | strip_html }}">
+    <meta name="twitter:description" content="{{ description | markdownify | strip_html }}">
     <meta name="twitter:image" content="{{ logo.page_url | relativize_url }}">
 
     <meta name="twitter:site" content="{{ site.twitter_username }}">
