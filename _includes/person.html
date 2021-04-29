@@ -22,7 +22,7 @@
     {% unless depiction %}
       {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
     {% endunless %}
-    <a href="{{ homepage }}"><img src="{{ depiction | relativize_url }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
+    <a href="{{ affiliation | rdf_property: "foaf:homepage" }}"><img src="{{ depiction | relativize_url }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
     {% endfor %}
   </p>
 </div>
