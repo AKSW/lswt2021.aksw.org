@@ -52,6 +52,7 @@
 <http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/SandraFuchs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SandraFuchs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandra Fuchs" .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SandraBartsch.png" .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SandraFuchs> .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
@@ -66,7 +67,7 @@
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianTramp.png" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
-<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Dr. Sebastian Tramp" .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
 <http://aksw.org/SimonBin> <http://purl.org/dc/terms/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SimonBin> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/name> "Simon Bin" .
@@ -169,9 +170,9 @@
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/ThomasRiechert> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/ThomasRiechert> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team"@en .
@@ -269,7 +270,7 @@
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/programm> <https://lswt2021.aksw.org/#Programm> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/registrationPage> <https://pretix.eu/infai/lswt2021/> .
-<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> _:Bed392ed1a5b77ec91961ca79268e28ca .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> _:B4bdb33047379e8a19f33b28507459fee .
 <https://lswt2021.aksw.org/> <http://schema.org/endDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://lswt2021.aksw.org/> <http://schema.org/location> <https://lswt2021.aksw.org/#Access> .
 <https://lswt2021.aksw.org/> <http://schema.org/logo> <https://lswt2021.aksw.org/images/logo.png> .
@@ -305,4 +306,4 @@
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/name> "eccenca GmbH" .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "Universität Leipzig" .
-_:Bed392ed1a5b77ec91961ca79268e28ca <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
+_:B4bdb33047379e8a19f33b28507459fee <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
