@@ -5,6 +5,7 @@
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
 <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2013" .
 <http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
+<http://aksw.org/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/name> "AKSW" .
@@ -95,10 +96,12 @@
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo_sq.svg" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/name> "DBpedia Association" .
 <https://htwk-leipzig.de/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk.svg" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "HTWK Leipzig" .
 <https://infai.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/InfAI_small.svg" .
+<https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_h.svg" .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/name> "InfAI" .
@@ -270,7 +273,7 @@
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/programm> <https://lswt2021.aksw.org/#Programm> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/registrationPage> <https://pretix.eu/infai/lswt2021/> .
-<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> _:B4bdb33047379e8a19f33b28507459fee .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> _:B755136ff4ef45575f4e291341e3e6381 .
 <https://lswt2021.aksw.org/> <http://schema.org/endDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://lswt2021.aksw.org/> <http://schema.org/location> <https://lswt2021.aksw.org/#Access> .
 <https://lswt2021.aksw.org/> <http://schema.org/logo> <https://lswt2021.aksw.org/images/logo.png> .
@@ -301,9 +304,9 @@
 <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2018" .
 <https://www.eccenca.com/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/eccenca_w.svg" .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_h.svg" .
-<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/name> "eccenca GmbH" .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "Universität Leipzig" .
-_:B4bdb33047379e8a19f33b28507459fee <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
+_:B755136ff4ef45575f4e291341e3e6381 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
