@@ -5,10 +5,11 @@
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
 <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2013" .
 <http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
+<http://aksw.org/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/name> "AKSW" .
-<http://aksw.org/JensLehmann> <http://purl.org/dc/elements/1.1/description> "Standortleiter Dresden @ [Fraunhofer IAIS](https://www.iais.fraunhofer.de/de/institut/dresden.html)" .
+<http://aksw.org/JensLehmann> <http://purl.org/dc/terms/description> "Standortleiter Dresden @ [Fraunhofer IAIS](https://www.iais.fraunhofer.de/de/institut/dresden.html)" .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.iais.fraunhofer.de/de/institut/mitarbeiterprofile/jens-lehmann.html> .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Jens Lehmann" .
 <http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://dbpedia.org/> .
@@ -16,68 +17,78 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
-<http://aksw.org/KonradHoeffner> <http://purl.org/dc/elements/1.1/description> "Wissenschaftlicher Mitarbeiter @ [Universit\u00E4t Leipzig / IMISE](http://www.imise.uni-leipzig.de/)" .
+<http://aksw.org/KonradHoeffner> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter @ [Universität Leipzig / IMISE](http://www.imise.uni-leipzig.de/)" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/homepage> <http://www.imise.uni-leipzig.de/Mitarbeiter/Konrad.Hoeffner.jsp> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad H\u00F6ffner" .
-<http://aksw.org/LisaWenige> <http://purl.org/dc/elements/1.1/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad Höffner" .
+<http://aksw.org/LisaWenige> <http://purl.org/dc/terms/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/LisaWenige> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/name> "Dr. Lisa Wenige" .
-<http://aksw.org/MagnusKnuth> <http://purl.org/dc/elements/1.1/description> "Senior Linked Data Consultant @ [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/MagnusKnuth> <http://purl.org/dc/terms/description> "Senior Linked Data Consultant @ [eccenca GmbH](https://www.eccenca.com/)" .
 <http://aksw.org/MagnusKnuth> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MagnusKnuth> .
 <http://aksw.org/MagnusKnuth> <http://xmlns.com/foaf/0.1/name> "Magnus Knuth" .
-<http://aksw.org/MarkusFreudenberg> <http://purl.org/dc/elements/1.1/description> "Ontology Engineer @ [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/MarkusFreudenberg> <http://purl.org/dc/terms/description> "Ontology Engineer @ [eccenca GmbH](https://www.eccenca.com/)" .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MarkusFreudenberg> .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/name> "Markus Freudenberg" .
-<http://aksw.org/MichaelMartin> <http://purl.org/dc/elements/1.1/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
+<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MichaelMartin.png" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Dr. Michael Martin" .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/elements/1.1/description> "Projektleiter @ [AKSW](http://aksw.org/)/[InfAI Management GmbH](https://infai.org/)" .
+<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Projektleiter @ [AKSW](http://aksw.org/)/[InfAI Management GmbH](https://infai.org/)" .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/NatanaelArndt.png" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Dr. Natanael Arndt" .
-<http://aksw.org/PatrickWestphal> <http://purl.org/dc/elements/1.1/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
+<http://aksw.org/PatrickWestphal> <http://purl.org/dc/terms/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/PatrickWestphal> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/name> "Patrick Westphal" .
-<http://aksw.org/RoyMeissner> <http://purl.org/dc/elements/1.1/description> "[AKSW](http://aksw.org/)/[Universit\u00E4t Leipzig](http://www.uni-leipzig.de/)" .
+<http://aksw.org/RoyMeissner> <http://purl.org/dc/terms/description> "[AKSW](http://aksw.org/)/[Universität Leipzig](http://www.uni-leipzig.de/)" .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
 <http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SandraFuchs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SandraFuchs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandra Fuchs" .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SandraBartsch.png" .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SandraFuchs> .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
-<http://aksw.org/SebastianHellmann> <http://purl.org/dc/elements/1.1/description> "Director @ [DBpedia Association](https://dbpedia.org/)" .
+<http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "Director @ [DBpedia Association](https://dbpedia.org/)" .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Dr.-Ing. Sebastian Hellmann" .
-<http://aksw.org/SebastianTramp> <http://purl.org/dc/elements/1.1/description> "CTO @ [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO @ [eccenca GmbH](https://www.eccenca.com/)" .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianTramp.png" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
-<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Dr. Sebastian Tramp" .
-<http://aksw.org/SimonBin> <http://purl.org/dc/elements/1.1/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<http://aksw.org/SimonBin> <http://purl.org/dc/terms/description> "[AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SimonBin> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/name> "Simon Bin" .
-<http://aksw.org/SoerenAuer> <http://purl.org/dc/elements/1.1/description> "Direktor @ [Technischen Informationsbibliothek (TIB)](https://www.tib.eu/)" .
+<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Direktor @ [Technischen Informationsbibliothek (TIB)](https://www.tib.eu/)" .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/homepage> <https://de.wikipedia.org/wiki/S%C3%B6ren_Auer> .
-<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. S\u00F6ren Auer" .
-<http://aksw.org/ThomasRiechert> <http://purl.org/dc/elements/1.1/description> "[Institut f\u00FCr Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" .
+<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Sören Auer" .
+<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
+<http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasRiechert.png" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
-<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Thomas Riechert" .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@de .
-<http://sda.tech/Person/MichaelGalkin> <http://purl.org/dc/elements/1.1/description> "[Smart Data Analytics](http://sda.tech/), Fraunhofer IAIS" .
+<http://sda.tech/Person/MichaelGalkin> <http://purl.org/dc/terms/description> "[Smart Data Analytics](http://sda.tech/), Fraunhofer IAIS" .
 <http://sda.tech/Person/MichaelGalkin> <http://xmlns.com/foaf/0.1/homepage> <http://sda.tech/Person/MichaelGalkin> .
 <http://sda.tech/Person/MichaelGalkin> <http://xmlns.com/foaf/0.1/name> "Dr. Michael Galkin" .
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
@@ -86,16 +97,19 @@
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo_sq.svg" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/name> "DBpedia Association" .
-<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk.svg" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "HTWK Leipzig" .
 <https://infai.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/InfAI_small.svg" .
+<https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_h.svg" .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/name> "InfAI" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
-<https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
+<https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2021" .
 <https://lswt2020.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2020" .
 <https://lswt2021.aksw.org/#Access> <http://schema.org/url> <https://meet.uni-leipzig.de/> .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/VirtualLocation> .
@@ -103,26 +117,26 @@
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "The LSWT2021 will take place on-line. When you are signed up for the event you will receive the link befor the LSWT starts."@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Access"@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Zugang"@de .
-<https://lswt2021.aksw.org/#AndreasBoth> <http://purl.org/dc/elements/1.1/description> " Head of Research @ [DATEV eG](https://www.datev.de)/[Hochschule Anhalt](https://www.hs-anhalt.de)" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://purl.org/dc/terms/description> " Head of Research @ [DATEV eG](https://www.datev.de)/[Hochschule Anhalt](https://www.hs-anhalt.de)" .
 <https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-anhalt.de/en/university/service/directory-of-people/dr-andreas-both.html> .
 <https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Both" .
-<https://lswt2021.aksw.org/#AndreasHeinecke> <http://purl.org/dc/elements/1.1/description> "Gesch\u00E4ftsf\u00FChrer @ [Institut f\u00FCr Angewandte Informatik (InfAI)](http://infai.org/)" .
+<https://lswt2021.aksw.org/#AndreasHeinecke> <http://purl.org/dc/terms/description> "Geschäftsführer @ [Institut für Angewandte Informatik (InfAI)](http://infai.org/)" .
 <https://lswt2021.aksw.org/#AndreasHeinecke> <http://schema.org/affiliation> <https://infai.org/> .
 <https://lswt2021.aksw.org/#AndreasHeinecke> <http://xmlns.com/foaf/0.1/homepage> <https://nz.linkedin.com/in/andreas-heinecke-55791283> .
 <https://lswt2021.aksw.org/#AndreasHeinecke> <http://xmlns.com/foaf/0.1/name> "Andreas Heinecke" .
-<https://lswt2021.aksw.org/#AndreasThor> <http://purl.org/dc/elements/1.1/description> "[HfTL](https://www.hft-leipzig.de/)" .
+<https://lswt2021.aksw.org/#AndreasThor> <http://purl.org/dc/terms/description> "[HfTL](https://www.hft-leipzig.de/)" .
 <https://lswt2021.aksw.org/#AndreasThor> <http://xmlns.com/foaf/0.1/homepage> <https://dbs.uni-leipzig.de/de/person/andreas_thor> .
 <https://lswt2021.aksw.org/#AndreasThor> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Thor" .
-<https://lswt2021.aksw.org/#BirgittaKoenigRies> <http://purl.org/dc/elements/1.1/description> "[Uni Jena](https://www.uni-jena.de/)" .
+<https://lswt2021.aksw.org/#BirgittaKoenigRies> <http://purl.org/dc/terms/description> "[Uni Jena](https://www.uni-jena.de/)" .
 <https://lswt2021.aksw.org/#BirgittaKoenigRies> <http://xmlns.com/foaf/0.1/homepage> <https://www.fmi.uni-jena.de/Fakult%C3%A4t/Aktivit%C3%A4ten+der+Fakult%C3%A4t/Veranstaltungen/Data+Science+Day+Jena/Data+Science+Day+2017/Referenten/K%C3%B6nig_Ries_+Birgitta+%28FSU+Jena%29-p-124565.html> .
-<https://lswt2021.aksw.org/#BirgittaKoenigRies> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Birgitta K\u00F6nig-Ries" .
-<https://lswt2021.aksw.org/#HansChristianBrockmann> <http://purl.org/dc/elements/1.1/description> "Gesch\u00E4ftsf\u00FChrer @ [eccenca GmbH](https://www.eccenca.com/)" .
+<https://lswt2021.aksw.org/#BirgittaKoenigRies> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Birgitta König-Ries" .
+<https://lswt2021.aksw.org/#HansChristianBrockmann> <http://purl.org/dc/terms/description> "Geschäftsführer @ [eccenca GmbH](https://www.eccenca.com/)" .
 <https://lswt2021.aksw.org/#HansChristianBrockmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.xing.com/profile/HansChristian_Brockmann> .
 <https://lswt2021.aksw.org/#HansChristianBrockmann> <http://xmlns.com/foaf/0.1/name> "Hans-Christian Brockmann" .
-<https://lswt2021.aksw.org/#HansGertGraebe> <http://purl.org/dc/elements/1.1/description> "[Betriebliche Informationssysteme](http://bis.informatik.uni-leipzig.de/)/[Universit\u00E4t Leipzig](https://www.uni-leipzig.de/)" .
+<https://lswt2021.aksw.org/#HansGertGraebe> <http://purl.org/dc/terms/description> "[Betriebliche Informationssysteme](http://bis.informatik.uni-leipzig.de/)/[Universität Leipzig](https://www.uni-leipzig.de/)" .
 <https://lswt2021.aksw.org/#HansGertGraebe> <http://xmlns.com/foaf/0.1/homepage> <http://bis.informatik.uni-leipzig.de/HansGertGraebe/> .
-<https://lswt2021.aksw.org/#HansGertGraebe> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Hans-Gert Gr\u00E4be" .
-<https://lswt2021.aksw.org/#MarcinKrystek> <http://purl.org/dc/elements/1.1/description> "Computer Systems Architect @ [Poznan Supercomputing and Networking Center](http://www.man.poznan.pl/online/en/) (PSNC)" .
+<https://lswt2021.aksw.org/#HansGertGraebe> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Hans-Gert Gräbe" .
+<https://lswt2021.aksw.org/#MarcinKrystek> <http://purl.org/dc/terms/description> "Computer Systems Architect @ [Poznan Supercomputing and Networking Center](http://www.man.poznan.pl/online/en/) (PSNC)" .
 <https://lswt2021.aksw.org/#MarcinKrystek> <http://xmlns.com/foaf/0.1/name> "Marcin Krystek" .
 <https://lswt2021.aksw.org/#MittagsPause> <http://ns.ontowiki.net/SysOnt/Site/id> "998"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#MittagsPause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
@@ -154,16 +168,16 @@
 <https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> .
 <https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventSeries> .
 <https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "Previous Events"@en .
-<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00FCckblick"@de .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "Rückblick"@de .
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@en .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/ThomasRiechert> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/ThomasRiechert> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team"@en .
@@ -181,7 +195,7 @@
 <https://lswt2021.aksw.org/#begruessung> <http://schema.org/performer> <https://lswt2021.aksw.org/#AndreasHeinecke> .
 <https://lswt2021.aksw.org/#begruessung> <http://schema.org/startDate> "2021-07-07T09:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Begr\u00FC\u00DFung"@de .
+<https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Begrüßung"@de .
 <https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Welcome"@en .
 <https://lswt2021.aksw.org/#closing> <http://ns.ontowiki.net/SysOnt/Site/id> "1227"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#closing> <http://schema.org/duration> "00:30" .
@@ -203,7 +217,7 @@
 <https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause und Postersession"@de .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/id> "102"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackKeynote> .
-<https://lswt2021.aksw.org/#keynote> <http://purl.org/dc/elements/1.1/description> "" .
+<https://lswt2021.aksw.org/#keynote> <http://purl.org/dc/terms/description> "" .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "00:30" .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/endDate> "2021-07-07T14:15+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
@@ -243,10 +257,10 @@
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@de .
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vortr\u00E4ge"@de .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm ist noch in Arbeit."@de .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The program is still in the making."@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vorträge"@de .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "999"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://schema.org/duration> "00:30" .
@@ -261,7 +275,7 @@
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/programm> <https://lswt2021.aksw.org/#Programm> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/registrationPage> <https://pretix.eu/infai/lswt2021/> .
-<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> _:genid1 .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> <https://lswt2021.aksw.org/RoomsList> .
 <https://lswt2021.aksw.org/> <http://schema.org/endDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://lswt2021.aksw.org/> <http://schema.org/location> <https://lswt2021.aksw.org/#Access> .
 <https://lswt2021.aksw.org/> <http://schema.org/logo> <https://lswt2021.aksw.org/images/logo.png> .
@@ -272,7 +286,7 @@
 <https://lswt2021.aksw.org/> <http://schema.org/successorOf> <https://lswt2021.aksw.org/#PreviousEvents> .
 <https://lswt2021.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Leipziger Semantic Web Tag (LSWT) bietet [seit 2009](#PreviousEvents) WissenschaftlerInnen, Unternehmen und Organisationen die M\u00F6glichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vortr\u00E4gen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert ([Programm](#Programm)).\n Falls Sie weitere Fragen haben k\u00F6nnen Sie sich auch gerne an das [Organisations-Team](#Team) wenden."@de .
+<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Leipziger Semantic Web Tag (LSWT) bietet [seit 2009](#PreviousEvents) WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert ([Programm](#Programm)).\n Falls Sie weitere Fragen haben können Sie sich auch gerne an das [Organisations-Team](#Team) wenden."@de .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "[Since 2009](#PreviousEvents), the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science ([Schedule](#Programm)).\n If you have any further questions don't hesitate to contact the [organisation team](#Team)."@en .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9. Leipziger Semantic Web Tag"@de .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9th Leipzig Semantic Web Day"@en .
@@ -283,6 +297,8 @@
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Invitation"@en .
 <https://lswt2021.aksw.org/Flyer.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Flyer"@de .
 <https://lswt2021.aksw.org/Flyer.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Flyer"@en .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung"@de .
 <https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Registration"@en .
 <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2011" .
@@ -291,9 +307,9 @@
 <https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2009" .
 <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2018" .
 <https://www.eccenca.com/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/eccenca_w.svg" .
+<https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_h.svg" .
-<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/name> "eccenca GmbH" .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
-<https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "Universit\u00E4t Leipzig" .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "Universität Leipzig" .
