@@ -4,3 +4,4 @@ node_modules
 .bundle
 Gemfile.lock
 _site
+.DS_Store
