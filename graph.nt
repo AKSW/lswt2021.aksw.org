@@ -86,8 +86,8 @@
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo_sq.svg" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/name> "DBpedia Association" .
-<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk.svg" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/name> "HTWK Leipzig" .
 <https://infai.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/InfAI_small.svg" .
@@ -243,10 +243,10 @@
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@de .
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vortr\u00E4ge"@de .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm ist noch in Arbeit."@de .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The program is still in the making."@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vortr\u00E4ge"@de .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "999"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://schema.org/duration> "00:30" .
