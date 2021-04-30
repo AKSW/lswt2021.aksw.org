@@ -1,3 +1,4 @@
+DEFAULT: help
 
 LSWT_GRAPH=https://lswt2021.aksw.org/
 LSWT_DUMP=graph.nt
@@ -12,7 +13,8 @@ CMEMC=docker run -i --rm \
 
 ## pull the graph from aksw.eccenca.dev to the directory (export)
 data-pull:
-	${CMEMC} graph export ${LSWT_GRAPH} | sort >${LSWT_DUMP}
+	export LC_ALL=C
+	${CMEMC} graph export ${LSWT_GRAPH} | sort -u >${LSWT_DUMP}
 
 ## push the graph from the directory to aksw.eccenca.dev (import --replace)
 data-push:
