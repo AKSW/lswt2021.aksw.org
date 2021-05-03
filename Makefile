@@ -13,8 +13,7 @@ CMEMC=docker run -i --rm \
 
 ## pull the graph from aksw.eccenca.dev to the directory (export)
 data-pull:
-	export LC_ALL=C
-	${CMEMC} graph export ${LSWT_GRAPH} | sort -u >${LSWT_DUMP}
+	${CMEMC} graph export ${LSWT_GRAPH} | LC_ALL=C sort -u >${LSWT_DUMP}
 
 ## push the graph from the directory to aksw.eccenca.dev (import --replace)
 data-push:
@@ -33,4 +32,3 @@ help:
 		} \
 		} \
 		{ lastLine = $$0 }' $(MAKEFILE_LIST)
-
