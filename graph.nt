@@ -81,6 +81,11 @@
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "The LSWT2021 will take place on-line. When you are signed up for the event you will receive the link befor the LSWT starts."@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Access"@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Zugang"@de .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines Vortrags an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, sowie Berichte aus der Anwendung sind von Belang. Parallel zu den Vorträgen wird es eine digitale, interaktive Postersession mit Beiträgen von Studierenden zu aktuellen Forschungsprojekten und Ideen geben. Gern können Sie mögliche Interessierte zum Einreichen solcher Beiträge motivieren und den Call weiterleiten. Bitte melden Sie sich mit einem Themenvorschlag bis zum **8. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a talk at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we are going to host a digital, interactive poster session with student works. Feel free to share this call with any student who might be interested. Please send in your ideas for a presentation until **2021-06-08** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English.  We look forward to your contributions to make this event a success!"@en .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
 <https://lswt2021.aksw.org/#MittagsPause> <http://ns.ontowiki.net/SysOnt/Site/id> "998"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#MittagsPause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
 <https://lswt2021.aksw.org/#MittagsPause> <http://schema.org/duration> "01:05" .
@@ -219,7 +224,7 @@
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://schema.org/startDate> "2021-04-30T09:10:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://www.w3.org/2000/01/rdf-schema#label> "test"@en .
-<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/cfp> <https://lswt2021.aksw.org/CFP-LSWT2021.pdf> .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/cfp> <https://lswt2021.aksw.org/#CFP> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/flyer> <https://lswt2021.aksw.org/Flyer.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/programm> <https://lswt2021.aksw.org/#Programm> .
@@ -240,9 +245,6 @@
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9. Leipziger Semantic Web Tag"@de .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9th Leipzig Semantic Web Day"@en .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2021" .
-<https://lswt2021.aksw.org/CFP-LSWT2021.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://lswt2021.aksw.org/CFP-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
-<https://lswt2021.aksw.org/CFP-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Einladung"@de .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Invitation"@en .
