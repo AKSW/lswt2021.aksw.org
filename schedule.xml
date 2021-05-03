@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+    <version>2021-05-03_18-11</version>
+    <conference><title>LSWT2021</title>
+        <acronym></acronym>
+        <start>2021-07-07</start>
+        <end>2021-07-07</end>
+        <generator>Jekyll v4.2.0</generator>
+    </conference>
+    <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
+    </day>
+</schedule>
