@@ -12,18 +12,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set Git user 🤖
-      run: |
-        git config user.email "lswt2021-cmem-update-bot@example.org"
-        git config user.name "LSWT2021 CMEM Update Bot 🤖"
     - name: Pull, commit, and push data 🔁
       env:
         OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
       run: |
            make data-pull
-           git add graph.nt
-           git commit -m "Update from CMEM"
-           git push
+           make git-commit-and-push
     - name: Provide JavaScript Dependencies 🚚
       run: |
            npm install
