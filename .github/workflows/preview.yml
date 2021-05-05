@@ -4,6 +4,9 @@ name: Build Jekyll Page Preview
 on:
   push:
     branches: [ develop ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '9 * * * *'
 
 jobs:
   build:
