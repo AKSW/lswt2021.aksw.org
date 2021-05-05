@@ -28,16 +28,8 @@ git-commit-and-push:
 	git config user.name "${GIT_USER_NAME}"
 	git config user.email "${GIT_USER_EMAIL}"
 	git add ${LSWT_DUMP}
-	git status --porcelain | grep '^[MTD] '
-	change_status=$((1-$?))
-	if [ $change_status -eq 0 ]; then
-		echo "[INFO] Repository needs no update. Skip commit and push."
-		exit 0
-	else
-		git commit -m "${GIT_COMMIT_MESSAGE}"
-		git push
-	fi
-
+	git commit -m "${GIT_COMMIT_MESSAGE}" || echo ""
+	git push || echo ""
 
 ## show this help screen
 help:
