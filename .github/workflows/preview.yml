@@ -12,6 +12,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Pull, commit, and push data 🔁
+      # requires OAUTH_CLIENT_SECRET
+      run: |
+           make data-pull
+           git add graph.nt
+           git commit -m "Update from CMEM"
+           git push
     - name: Provide JavaScript Dependencies 🚚
       run: |
            npm install
