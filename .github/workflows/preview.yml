@@ -12,6 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Set Git user 🤖
+      run: |
+        git config user.email "lswt2021-cmem-update-bot@example.org"
+        git config user.name "LSWT2021 CMEM Update Bot 🤖"
     - name: Pull, commit, and push data 🔁
       # requires OAUTH_CLIENT_SECRET
       run: |
