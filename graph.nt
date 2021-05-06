@@ -196,11 +196,9 @@
 <https://lswt2021.aksw.org/#studentProgramPitches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#studentProgramPitches> <http://www.w3.org/2000/01/rdf-schema#label> "1 Minute Pitches der Studenten" .
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/ThomasRiechert> .
-<https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/EdgardMarx> .
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team of the Student Program"@en .
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam des Studentenprogramms"@de .
-<https://lswt2021.aksw.org/#studentProgramTeam> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/EdgardMarx> .
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@de .
@@ -248,9 +246,6 @@
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Einladung"@de .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Invitation"@en .
-<https://lswt2021.aksw.org/Flyer.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://lswt2021.aksw.org/Flyer.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Flyer"@de .
-<https://lswt2021.aksw.org/Flyer.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Flyer"@en .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/2000/01/rdf-schema#label> "Rooms" .
