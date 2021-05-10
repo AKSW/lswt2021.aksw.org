@@ -222,6 +222,8 @@
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://schema.org/startDate> "2021-04-30T09:10:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://www.w3.org/2000/01/rdf-schema#label> "test"@en .
+<https://lswt2021.aksw.org/5d5d692a-212e-4816-ab44-26942a7f0289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/5d5d692a-212e-4816-ab44-26942a7f0289> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Vera Meister" .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/cfp> <https://lswt2021.aksw.org/#CFP> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/flyer> <https://lswt2021.aksw.org/Flyer.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
