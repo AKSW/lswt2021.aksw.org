@@ -285,11 +285,10 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_h.svg" .
-<https://www.l3s.de/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/InfAI_small.svg" .
 <https://www.l3s.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.l3s.de/> <http://www.w3.org/2000/01/rdf-schema#label> "L3S" .
 <https://www.l3s.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l3s.de/> .
-<https://www.l3s.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/L3S.jpg" .
+<https://www.l3s.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/l3s.jpg" .
 <https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
