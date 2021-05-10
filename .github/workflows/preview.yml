@@ -4,6 +4,7 @@ name: Build Jekyll Page Preview
 on:
   push:
     branches: [ develop ]
+  workflow_dispatch:
   schedule:
     - cron:  '30 * * * *'
 
