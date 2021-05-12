@@ -16,7 +16,9 @@ type: Event
     {% for partner in partnersList %}
     <div class="lswt-card">
       <div class="logo-container logo-10vh">
-        <img class="logo" src="{{ partner | rdf_property: "foaf:logo" }}">
+        <a href="{{ partner | rdf_property: "foaf:homepage" }}">
+          <img class="logo" src="{{ partner | rdf_property: "foaf:logo" }}">
+        </a>
       </div>
     </div>
     {% endfor %}

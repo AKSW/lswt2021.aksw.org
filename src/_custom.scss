@@ -32,7 +32,7 @@ body {
   width: 80%;
   margin: auto;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 0;
   right: 0;
 }
@@ -44,13 +44,18 @@ body {
 }
 
 .landing-title-bottom {
-  margin: auto;
   padding: 0.5rem;
   position: absolute;
   left: 0;
   right: 0;
-  top: 80%;
-  height: 20%;
+  bottom: 2%;
+}
+
+
+@media (min-aspect-ratio: 4/3) { /* and (max-aspect-ratio: 15/5) 6/5 */
+  .landing-title-bottom {
+    margin: auto 10vw;
+  }
 }
 
 .landing-menu {
@@ -59,6 +64,10 @@ body {
   top: 0;
   height: var(--menu-height);
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  hyphens: auto;
 }
 
 h3, .h3 {
@@ -98,13 +107,17 @@ a {
 }
 
 .lswt-card-columns {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 5px;
+  display: flex;
+  //grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  //grid-gap: 5px;
+  flex-flow: wrap;
 }
 
 .lswt-card-columns > div {
-  padding: .7rem;
+  padding: 2rem;
+  min-width: 230px;
+  flex-grow: 1;
+  flex-basis: min-content;
 }
 
 .lswt-card {
@@ -114,6 +127,7 @@ a {
 .lswt-card .lswt-card-title {
   margin-top: .5rem;
   height: 2.2em;
+  hyphens: none;
 }
 
 .lswt-card .logo-container {
@@ -126,12 +140,28 @@ a {
   margin: .5rem 0;
 }
 
-.lswt-card .logo-10vh {
-  height: 10vh;
-}
-
 .lswt-card .logo {
   height: 100%;
+  max-width: 100%;
+}
+
+.landing-title-bottom .lswt-card {
+  flex-basis: content;
+  padding: 0;
+  // background-color: grey;
+  margin: .5rem;
+  min-width: unset;
+}
+
+.landing-title-bottom .lswt-card .logo-container {
+  height: 10vh;
+  min-width: 10vh;
+}
+
+.landing-title-bottom .lswt-card .logo {
+  background-color: white;
+  padding: 1rem;
+  border-radius: .25rem !important;
 }
 
 //
