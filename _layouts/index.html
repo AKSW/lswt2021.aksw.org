@@ -9,15 +9,19 @@ type: Event
   <div class="landing-title-top">
     <img src="{% relative_link images/lswt.svg %}" class="title-figure">
   </div>
-  {% comment %}
   <div class="landing-title-bottom">
+    <div class="lswt-card-columns">
     {% assign partners = rootResource | rdf_property: "schema:partner" %}
     {% assign partnersList = partners | rdf_container %}
     {% for partner in partnersList %}
-      <img class="partnerlogo" src="{{ partner | rdf_property: "foaf:logo" }}">
+    <div class="lswt-card">
+      <div class="logo-container logo-10vh">
+        <img class="logo" src="{{ partner | rdf_property: "foaf:logo" }}">
+      </div>
+    </div>
     {% endfor %}
+    </div>
   </div>
-  {% endcomment %}
 </div>
 
 <div class="landing-menu">

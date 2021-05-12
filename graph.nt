@@ -71,11 +71,10 @@
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HTWK Leipzig" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk.svg" .
-<https://infai.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/InfAI_small.svg" .
 <https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "InfAI" .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
-<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_h.svg" .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_small.svg" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -102,9 +101,8 @@
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Lunch Break"@en .
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Mittagspause"@de .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dbpedia.org/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.eccenca.com/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://infai.org/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://infai.org/> .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partner"@de .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partners"@en .
@@ -280,11 +278,10 @@
 <https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2009" .
 <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2018" .
-<https://www.eccenca.com/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/eccenca_w.svg" .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
-<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_h.svg" .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_w.svg" .
 <https://www.l3s.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.l3s.de/> <http://www.w3.org/2000/01/rdf-schema#label> "L3S" .
 <https://www.l3s.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l3s.de/> .
