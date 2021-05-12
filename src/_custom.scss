@@ -39,6 +39,8 @@ body {
 
 .landing-title-top img {
   width: inherit;
+  max-width: 90vw;
+  max-height: 60vh;
 }
 
 .landing-title-bottom {
@@ -47,7 +49,8 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 80%;
+  height: 20%;
 }
 
 .landing-menu {
@@ -101,8 +104,7 @@ a {
 }
 
 .lswt-card-columns > div {
-  font-size: 30px;
-  padding: .5em;
+  padding: .7rem;
 }
 
 .lswt-card {
@@ -116,9 +118,16 @@ a {
 
 .lswt-card .logo-container {
   width: 100%;
-  height: 3rem;
   text-align: center;
-  margin: .25rem 0;
+}
+
+.lswt-card .logo-3rem {
+  height: 3rem;
+  margin: .5rem 0;
+}
+
+.lswt-card .logo-10vh {
+  height: 10vh;
 }
 
 .lswt-card .logo {
