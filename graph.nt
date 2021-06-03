@@ -107,11 +107,12 @@
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Lunch Break"@en .
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Mittagspause"@de .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://infai.org/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://htwk-leipzig.de/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://www.l3s.de/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.th-brandenburg.de/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.tib.eu/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://htwk-leipzig.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.hs-anhalt.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://infai.org/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.l3s.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.th-brandenburg.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://www.tib.eu/> .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partner"@de .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partners"@en .
