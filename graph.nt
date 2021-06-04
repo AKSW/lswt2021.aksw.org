@@ -86,6 +86,13 @@
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "The LSWT2021 will take place on-line. When you are signed up for the event you will receive the link befor the LSWT starts."@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Access"@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Zugang"@de .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://purl.org/dc/elements/1.1/description> "[Hochschule Anhalt](https://www.hs-anhalt.de)" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://schema.org/affiliation> <https://www.hs-anhalt.de/> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/images/people/AndreasBoth.jpg" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-anhalt.de/en/university/service/directory-of-people/dr-andreas-both.html> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Both" .
 <https://lswt2021.aksw.org/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vorträgen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu präsentieren. Für die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern können Sie auch weitere mögliche Interessierte zur Einreichung von Beiträgen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de .
 <https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en .
@@ -100,11 +107,12 @@
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Lunch Break"@en .
 <https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Mittagspause"@de .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://infai.org/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://htwk-leipzig.de/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://www.l3s.de/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.th-brandenburg.de/> .
-<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.tib.eu/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://htwk-leipzig.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.hs-anhalt.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://infai.org/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.l3s.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.th-brandenburg.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://www.tib.eu/> .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partner"@de .
 <https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partners"@en .
@@ -132,11 +140,12 @@
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SoerenAuer> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/SandraFuchs> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://lswt2021.aksw.org/#VeraMeister> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/ThomasRiechert> .
-<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lswt2021.aksw.org/#AndreasBoth> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/MichaelMartin> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://lswt2021.aksw.org/#VeraMeister> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/SebastianTramp> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team"@en .
 <https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
@@ -146,6 +155,7 @@
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SoerenAuer> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <https://lswt2021.aksw.org/#AndreasBoth> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <https://lswt2021.aksw.org/#VeraMeister> .
 <https://lswt2021.aksw.org/#VeraMeister> <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" .
 <https://lswt2021.aksw.org/#VeraMeister> <http://schema.org/affiliation> <https://www.th-brandenburg.de/> .
@@ -284,6 +294,10 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_w.svg" .
+<https://www.hs-anhalt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.hs-anhalt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Anhalt" .
+<https://www.hs-anhalt.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-anhalt.de/> .
+<https://www.hs-anhalt.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/HSA.svg" .
 <https://www.l3s.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.l3s.de/> <http://www.w3.org/2000/01/rdf-schema#label> "L3S" .
 <https://www.l3s.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l3s.de/> .
