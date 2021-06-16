@@ -28,7 +28,6 @@ type: Event
 
 <div class="landing-menu">
   <!-- <a href="#Programm" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:programm" | rdf_property: "rdfs:label", page.language }}</a> -->
-  <!-- <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a> -->
   <!-- <a href="{{ rootResource | rdf_property: "site:invitation" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:invitation" | rdf_property: "rdfs:label", page.language }}</a> -->
   <!-- <a href="{{ rootResource | rdf_property: "site:flyer" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:flyer" | rdf_property: "rdfs:label", page.language }}</a> -->
 </div>
@@ -43,6 +42,7 @@ type: Event
         <dt>{{ "schema:startDate" | rdf_property: "rdfs:label", page.language }}</dt>
         <dd>{{ rootResource | rdf_property: "schema:startDate" | localize: "%-d. %B %Y", page.language }}</dd>
         {% assign location = rootResource | rdf_property: "schema:location" %}
+        <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a>
         <dt>{{ location | rdf_property: "rdfs:label", page.language }}</dt>
         <dd><a href="{{ location.page_url }}">t.b.a.</a></dd>
       </dl>
