@@ -42,7 +42,8 @@ type: Event
         <dt>{{ "schema:startDate" | rdf_property: "rdfs:label", page.language }}</dt>
         <dd>{{ rootResource | rdf_property: "schema:startDate" | localize: "%-d. %B %Y", page.language }}</dd>
         {% assign location = rootResource | rdf_property: "schema:location" %}
-        <a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a>
+        <dd>{{ "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</dd>
+        <dt><a href="{{ rootResource | rdf_property: "site:registrationPage" }}" role="button" class="btn btn-success">{{ rootResource | rdf_property: "site:registrationPage" | rdf_property: "rdfs:label", page.language }}</a></dt>
         <dt>{{ location | rdf_property: "rdfs:label", page.language }}</dt>
         <dd><a href="{{ location.page_url }}">t.b.a.</a></dd>
       </dl>
