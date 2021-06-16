@@ -51,6 +51,8 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasRiechert.png" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
+<http://ns.ontowiki.net/SysOnt/Site/registrationPage> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung"@de .
+<http://ns.ontowiki.net/SysOnt/Site/registrationPage> <http://www.w3.org/2000/01/rdf-schema#label> "Registration"@en .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -278,8 +280,8 @@
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/2000/01/rdf-schema#label> "Rooms" .
 <https://pretix.eu/infai/lswt2021/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung"@de .
-<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Registration"@en .
+<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung über Pretix"@de .
+<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Registration via Pretix"@en .
 <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2011" .
 <https://web.archive.org/web/20131219160129/http://wiki.aksw.org/Events/2010/LeipzigerSemanticWebDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
