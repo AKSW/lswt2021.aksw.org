@@ -202,10 +202,9 @@
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/id> "102"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackKeynote> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "P0Y0M0DT0H35M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
-<https://lswt2021.aksw.org/#keynote> <http://schema.org/endDate> "2021-07-07T14:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/performer> <https://lswt2021.aksw.org/#SonjaSchimmler> .
-<https://lswt2021.aksw.org/#keynote> <http://schema.org/startDate> "2021-07-07T13:40:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/subEvent> <https://lswt2021.aksw.org/> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@de .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@en .
@@ -239,8 +238,8 @@
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@de .
 <https://lswt2021.aksw.org/#trackKeynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote"@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm ist noch in Arbeit."@de .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The program is still in the making."@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm ist noch in Arbeit, es kann sich jederzeit ohne Vorankündigung ändern."@de .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The program is still in the making, The schedule might change without notice."@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vorträge"@de .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "999"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -252,6 +251,9 @@
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break and Postersession"@en .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause und Postersession"@de .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christoph Lange" .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://xmlns.com/foaf/0.1/homepage> <http://dbis.rwth-aachen.de/cms/staff/christophlange> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://schema.org/duration> "P0Y0M0DT0H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://schema.org/endDate> "2021-04-30T14:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/38fa76e6-7359-47e4-8b72-da9730f793f3> <http://schema.org/startDate> "2021-04-30T09:10:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
