@@ -136,6 +136,11 @@
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@en .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://purl.org/dc/terms/description> "Sonja Schimmler leads the research group \"Digitalisation and Science\" at the Weizenbaum Institute and at Fraunhofer FOKUS. She is also an associated researcher at the Technical University of Berlin. In her research, she focuses on the digitalisation and opening of science and puts a special emphasis on research data infrastructures. Her research interests range from semantic web and linked data over data science and artificial intelligence to software engineering and human-centered computing. She is doing fundamental interdisciplinary and application-oriented research."^^<file:///data/> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Sonja Schimmler" .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sonja Schimmler" .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/homepage> "https://www.weizenbaum-institut.de/portrait/p/sonja-schimmler/"^^<file:///data/> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
@@ -196,14 +201,13 @@
 <https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause und Postersession"@de .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/id> "102"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackKeynote> .
-<https://lswt2021.aksw.org/#keynote> <http://purl.org/dc/terms/description> "" .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "P0Y0M0DT0H35M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/endDate> "2021-07-07T14:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/startDate> "2021-07-07T13:40:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: "@de .
-<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: "@en .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@de .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@en .
 <https://lswt2021.aksw.org/#pause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#pause> <http://www.w3.org/2000/01/rdf-schema#label> "Break"@en .
 <https://lswt2021.aksw.org/#pause> <http://www.w3.org/2000/01/rdf-schema#label> "Pause"@de .
