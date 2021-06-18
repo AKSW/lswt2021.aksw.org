@@ -106,7 +106,7 @@ a {
   height: 10rem;
 }
 
-.lswt-card-columns {
+.lswt-card-columns, .lswt-speaker-columns {
   display: flex;
   //grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   //grid-gap: 5px;
@@ -118,6 +118,19 @@ a {
   min-width: 230px;
   flex-grow: 1;
   flex-basis: min-content;
+}
+
+.lswt-speaker-columns > div {
+  padding: 2rem;
+  padding-bottom: 0rem;
+  min-width: 230px;
+  flex-grow: 1;
+  flex-basis: min-content;
+}
+
+div.lswt-textcard {
+  min-width: 330px;
+  flex-grow: 100;
 }
 
 .lswt-card {

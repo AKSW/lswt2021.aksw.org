@@ -1,12 +1,5 @@
 
 <div class="section" id="Programm">
-  {% if page.language == "en" %}
-  {% assign programmLabel = "Schedule" %}
-  {% assign programmDisclaimer = "The schedule might change without notice." %}
-  {% else %}
-  {% assign programmLabel = "Programm" %}
-  {% assign programmDisclaimer = "Das Programm kann sich jederzeit ohne Vorankündigung ändern." %}
-  {% endif %}
 
   {%- assign rooms = rootResource | rdf_container: "site:rooms" -%}
   {% for room in rooms %}
@@ -14,34 +7,32 @@
     <h2 style="display: inline">{{ room | rdf_property: "rdfs:label", page.language }}</h2>
 
     <p>
-      <strong>{{programmLabel}}</strong> – <em>{{ programmDisclaimer }}</em>
-    </p>
-    <p>
-      {{ room | rdf_property: "rdfs:comment", page.language }}
+      <em>{{ room | rdf_property: "rdfs:comment", page.language }}</em>
     </p>
 
     {% capture events_query %}
-    SELECT ?event WHERE {
-      ?event schema:location <{{ room.iri }}>; schema:startDate ?date .
+    SELECT ?event ?start ?end WHERE {
       <{{ rootResource.iri }}> schema:subEvent ?event .
-    } ORDER BY ASC(?date)
+      ?event schema:location <{{ room.iri }}> .
+      optional { ?event schema:startDate ?start ; schema:endDate ?end }
+    } ORDER BY ASC(?start)
     {% endcapture %}
 
     {% assign events = room | sparql_query: events_query %}
     {%- for events_row in events -%}
     {%- assign event = events_row.event -%}
-    {%- assign start = event | rdf_property: "schema:startDate" | date: "%H.%M" -%}
-    {%- assign end = event | rdf_property: "schema:endDate" | date: "%H.%M" -%}
+    {%- assign start = events_row.start | date: "%H.%M" -%}
+    {%- assign end = events_row.end | date: "%H.%M" -%}
 
     {% assign track = event | rdf_property: "site:track" %}
     {% assign pause = "lswt:pause" | rdf_get %}
     {% if track == pause %}
-    <h3 class="pause">{{start}} bis {{end}}: {{ event | rdf_property: "rdfs:label", page.language }}</h3>
+    <h3 class="pause">{% if events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
     {% else %}
-    <h3 id="{{ event | split: "#" | last }}">{{start}} bis {{end}}: {{ event | rdf_property: "rdfs:label", page.language }}</h3>
+    <h3 id="{{ event | split: "#" | last }}">{% if events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
     {% endif %}
-    {% include performer.html event=event join="; " paragraph=true %}
-
+    {% include performer.html event=event join="; " style="individual" %}
+    
     {% assign description = event | rdf_property: "dc:description", page.language %}
     {% if description %}
     <p>{{ description }}</p>
