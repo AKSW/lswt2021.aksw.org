@@ -141,6 +141,7 @@
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Sonja Schimmler" .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sonja Schimmler" .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/homepage> <https://www.weizenbaum-institut.de/portrait/p/sonja-schimmler/> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/name> "Dr. Sonja Schimmler" .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
@@ -204,7 +205,6 @@
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "P0Y0M0DT0H35M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/performer> <https://lswt2021.aksw.org/#SonjaSchimmler> .
-<https://lswt2021.aksw.org/#keynote> <http://schema.org/subEvent> <https://lswt2021.aksw.org/> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@de .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@en .
