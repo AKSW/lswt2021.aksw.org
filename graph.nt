@@ -137,9 +137,12 @@
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
 <https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@en .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://purl.org/dc/terms/description> "Sonja Schimmler leads the research group \"Digitalisation and Science\" at the Weizenbaum Institute and at Fraunhofer FOKUS. She is also an associated researcher at the Technical University of Berlin. In her research, she focuses on the digitalisation and opening of science and puts a special emphasis on research data infrastructures. Her research interests range from semantic web and linked data over data science and artificial intelligence to software engineering and human-centered computing. She is doing fundamental interdisciplinary and application-oriented research."^^<file:///data/> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://schema.org/affiliation> <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://schema.org/affiliation> <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Sonja Schimmler" .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sonja Schimmler" .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SonjaSchimmler.jpeg" .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/homepage> <https://www.weizenbaum-institut.de/portrait/p/sonja-schimmler/> .
 <https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/name> "Dr. Sonja Schimmler" .
 <https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
@@ -251,6 +254,10 @@
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break and Postersession"@en .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause und Postersession"@de .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institut"@de .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institute"@en .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://xmlns.com/foaf/0.1/homepage> <https://www.weizenbaum-institut.de/> .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christoph Lange" .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://xmlns.com/foaf/0.1/homepage> <http://dbis.rwth-aachen.de/cms/staff/christophlange> .
@@ -287,6 +294,9 @@
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/2000/01/rdf-schema#label> "Rooms" .
+<https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS"@en .
+<https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/> .
 <https://lswt2021.aksw.org/c2e2023d-c578-4bf3-9b01-d8277656ffff> <http://schema.org/duration> "P0Y0M0DT3H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/c2e2023d-c578-4bf3-9b01-d8277656ffff> <http://schema.org/endDate> "2021-07-06T16:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/c2e2023d-c578-4bf3-9b01-d8277656ffff> <http://schema.org/startDate> "2021-07-06T13:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
