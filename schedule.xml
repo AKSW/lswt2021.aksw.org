@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-19_09-42</version>
+    <version>2021-06-19_10-45</version>
     <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
@@ -8,7 +8,59 @@
         <generator>Jekyll v4.2.0</generator>
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
-        <room name="Vorträge">
+        <room name="Main Track">
+            
+            <event id="997">
+                <title>Coffee Break and Postersession</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration>00:20</duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
+            </event>
+        
+            
+            <event id="101">
+                <title>Welcome</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration>00:10</duration>
+                <person>Sebastian Tramp</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
+            
+            <event id="1227">
+                <title>Poster Winner and Closing</title>
+                <date>2021-07-07T17:45:00Z</date>
+                <start>17:45</start>
+                <duration>00:30</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#closing</slug>
+            </event>
+        
+            
+            <event id="998">
+                <title>Mittagspause</title>
+                <date>2021-07-07T12:40:00Z</date>
+                <start>12:40</start>
+                <duration></duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+            </event>
+        
             
             <event id="1012">
                 <title>1 Minute Pitches der Studenten</title>
@@ -16,73 +68,21 @@
                 <start>10:45</start>
                 <duration>00:15</duration>
                 <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
             </event>
         
             
-            <event id="998">
-                <title>Lunch Break</title>
-                <date>2021-07-07T12:40:00Z</date>
-                <start>12:40</start>
-                <duration></duration>
-                <person></person>
-                <track>Break</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
-            </event>
-        
-            
-            <event id="997">
-                <title>Kaffeepause und Postersession</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration>00:20</duration>
-                <person></person>
-                <track>Break</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
-            </event>
-        
-            
-            <event id="1227">
-                <title>Poster Gewinner und Abschluss</title>
-                <date>2021-07-07T17:45:00Z</date>
-                <start>17:45</start>
-                <duration>00:30</duration>
-                <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#closing</slug>
-            </event>
-        
-            
-            <event id="101">
-                <title>Begrüßung</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration>00:10</duration>
-                <person>Sebastian Tramp</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
-            
             <event id="999">
-                <title>Kaffeepause und Postersession</title>
+                <title>Coffee Break and Postersession</title>
                 <date>2021-07-07T15:30:00Z</date>
                 <start>15:30</start>
                 <duration>00:30</duration>
                 <person></person>
                 <track>Break</track>
-                <room>Vorträge</room>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
