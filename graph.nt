@@ -209,8 +209,8 @@
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/performer> <https://lswt2021.aksw.org/#SonjaSchimmler> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@de .
-<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence based on knowledge graphs"@en .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence"@de .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence"@en .
 <https://lswt2021.aksw.org/#pause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#pause> <http://www.w3.org/2000/01/rdf-schema#label> "Break"@en .
 <https://lswt2021.aksw.org/#pause> <http://www.w3.org/2000/01/rdf-schema#label> "Pause"@de .
