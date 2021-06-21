@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-21_20-53</version>
-    <conference><title>LSWT2021</title>
+    <version>2021-06-21_21-36</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -9,32 +9,6 @@
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Vorträge">
-            
-            <event id="997">
-                <title>Coffee Break and Postersession</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration>00:20</duration>
-                <person></person>
-                <track>Pause</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
-            </event>
-        
-            
-            <event id="101">
-                <title>Welcome</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration>00:10</duration>
-                <person>Sebastian Tramp</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
             
             <event id="999">
                 <title>Coffee Break and Postersession</title>
@@ -46,19 +20,6 @@
                 <room>Vorträge</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
-            </event>
-        
-            
-            <event id="1012">
-                <title>1 Minute Pitches der Studenten</title>
-                <date>2021-07-07T10:45:00Z</date>
-                <start>10:45</start>
-                <duration>00:15</duration>
-                <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
             </event>
         
             
@@ -85,6 +46,45 @@
                 <room>Vorträge</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#closing</slug>
+            </event>
+        
+            
+            <event id="101">
+                <title>Welcome</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration>00:10</duration>
+                <person>Sebastian Tramp</person>
+                <track>Vorträge</track>
+                <room>Vorträge</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
+            
+            <event id="1012">
+                <title>1 Minute Pitches der Studenten</title>
+                <date>2021-07-07T10:45:00Z</date>
+                <start>10:45</start>
+                <duration>00:15</duration>
+                <person></person>
+                <track>Vorträge</track>
+                <room>Vorträge</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
+            </event>
+        
+            
+            <event id="997">
+                <title>Coffee Break and Postersession</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration>00:20</duration>
+                <person></person>
+                <track>Pause</track>
+                <room>Vorträge</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
             </event>
         
         </room>
