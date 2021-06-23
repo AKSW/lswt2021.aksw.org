@@ -194,11 +194,14 @@
 <https://lswt2021.aksw.org/#closing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#closing> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Gewinner und Abschluss"@de .
 <https://lswt2021.aksw.org/#closing> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Winner and Closing"@en .
+<https://lswt2021.aksw.org/#dbpedia-track> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<https://lswt2021.aksw.org/#dbpedia-track> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Track (8. Juli)"@de .
+<https://lswt2021.aksw.org/#dbpedia-track> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Track (July 8th)"@en .
 <https://lswt2021.aksw.org/#dbpedia> <http://purl.org/dc/terms/description> "DBpedia organisiert im Rahmen des LSWT ein Knowledge Graph Tutorial. Das Online-Event findet am Donnerstag, 8. Juli 2021 ab 13:00 Uhr statt und thematisiert die Entwicklungen rund um den DBpedia Databus. Während des Tutorials erhalten die Teilnehmenden Kenntnisse darüber, wie sie Informationen finden und den DBpedia Knowledge Graph (KG) abfragen können. Des Weiteren wird das Replizieren des KGs demonstriert. Auch werden verschiedene Use Cases und Services, wie beispielsweise DBpedia Lookup, Archivo und DBpedia Spotlight vorgestellt.  \nObwohl das Tutorial so gestaltet ist, dass keine besonderen Voraussetzungen erforderlich sind, profitieren die Teilnehmenden von Vorkenntnissen über die Konzepte und Technologien des Semantic Web (RDF, OWL, SPARQL), einem allgemeinen Überblick über die Webarchitektur (HTTP, URI, JSON, etc.) und grundlegenden Programmierkenntnissen (bash, Java, JavaScript)."^^<http://www.w3.org/2001/XMLSchema#language> .
 <https://lswt2021.aksw.org/#dbpedia> <http://purl.org/dc/terms/description> "DBpedia will organize a Knowledge Graph Tutorial on July 8, 2021 at 1pm CEST. The tutorial targets existing and potential new users of DBpedia, developers that wish to learn how to replicate DBpedia infrastructure, service providers interested in exploiting the DBpedia Knowlede Graph (KG), data providers interested in integrating data assets with the DBpedia KG and data scientists (e.g. linguists) focused on extracting relevant information (e.g. linguistic) from/based on the DBpedia KG.\n\nDuring the course of the tutorial the participants will gain knowledge about:\n- the complete DBpedia Knowledge Graph lifecycle, i.e. from extraction and modelling to publishing and maintenance of DBpedia,\n- how to find information, access, query and work with the DBpedia KG,\n- the DBpedia infrastructure – the Databus platform and services (Spotlight, Archivo, etc),\n- how to replicate the DBpedia knowledge graph and infrastructure,\n- how to use DBpedia in third-party applications and\n- how to contribute and improve the DBpedia Knowledge Graph.\n\nAltough the tutorial will be shaped in a way that no specific prerequisites will be required, the participants would benefit if they have some background knowledge in Semantic Web concepts and technologies (RDF, OWL, SPARQL), general overview of the Web Architecture (HTTP, URI, JSON, etc.) and basic programming skills (bash, Java, JavaScript)."^^<http://www.w3.org/2001/XMLSchema#language> .
 <https://lswt2021.aksw.org/#dbpedia> <http://schema.org/duration> "P0Y0M0DT3H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/#dbpedia> <http://schema.org/endDate> "2021-07-08T16:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://lswt2021.aksw.org/#dbpedia> <http://schema.org/location> <https://lswt2021.aksw.org/d6a382d4-16a0-4ab3-b1ec-7e94645646ce> .
+<https://lswt2021.aksw.org/#dbpedia> <http://schema.org/location> <https://lswt2021.aksw.org/#dbpedia-track> .
 <https://lswt2021.aksw.org/#dbpedia> <http://schema.org/startDate> "2021-07-08T13:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#dbpedia> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Tutorial "@de .
@@ -302,13 +305,12 @@
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Einladung"@de .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Invitation"@en .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://lswt2021.aksw.org/#dbpedia-track> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/2000/01/rdf-schema#label> "Rooms" .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS"@en .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/> .
-<https://lswt2021.aksw.org/d6a382d4-16a0-4ab3-b1ec-7e94645646ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
-<https://lswt2021.aksw.org/d6a382d4-16a0-4ab3-b1ec-7e94645646ce> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Track"@en .
 <https://pretix.eu/infai/lswt2021/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung über Pretix"@de .
 <https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Registration via Pretix"@en .
