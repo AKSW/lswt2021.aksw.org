@@ -272,6 +272,7 @@
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/programm> <https://lswt2021.aksw.org/#Programm> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/registrationPage> <https://pretix.eu/infai/lswt2021/> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> <https://lswt2021.aksw.org/RoomsList> .
+<https://lswt2021.aksw.org/> <http://schema.org/duration> "P0Y0M0DT0H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/> <http://schema.org/endDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://lswt2021.aksw.org/> <http://schema.org/location> <https://lswt2021.aksw.org/#Access> .
 <https://lswt2021.aksw.org/> <http://schema.org/logo> <https://lswt2021.aksw.org/images/logo.png> .
@@ -280,6 +281,7 @@
 <https://lswt2021.aksw.org/> <http://schema.org/sponsor> <https://lswt2021.aksw.org/#Sponsors> .
 <https://lswt2021.aksw.org/> <http://schema.org/startDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#keynote> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/c2e2023d-c578-4bf3-9b01-d8277656ffff> .
 <https://lswt2021.aksw.org/> <http://schema.org/successorOf> <https://lswt2021.aksw.org/#PreviousEvents> .
 <https://lswt2021.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -287,7 +289,6 @@
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "[Since 2009](#PreviousEvents), the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science ([Schedule](#Programm)).\n If you have any further questions don't hesitate to contact the [organisation team](#Team)."@en .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9. Leipziger Semantic Web Tag"@de .
 <https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9th Leipzig Semantic Web Day"@en .
-<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2021" .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Einladung"@de .
 <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Invitation"@en .
