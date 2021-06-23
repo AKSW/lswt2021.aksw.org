@@ -23,7 +23,6 @@
     {%- assign event = events_row.event -%}
     {%- assign start = events_row.start | date: "%H.%M" -%}
     {%- assign end = events_row.end | date: "%H.%M" -%}
-
     {% assign track = event | rdf_property: "site:track" %}
     {% assign pause = "lswt:pause" | rdf_get %}
     {% if track == pause %}
@@ -32,10 +31,10 @@
     <h3 id="{{ event | split: "#" | last }}">{% if events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
     {% endif %}
     {% include performer.html event=event join="; " style="individual" %}
-    
-    {% assign description = event | rdf_property: "dc:description", page.language %}
+
+    {% assign description = event | rdf_property: "dct:description", page.language %}
     {% if description %}
-    <p>{{ description }}</p>
+    <p>{{ description | markdownify }}</p>
     {% endif %}
 
     {% capture subEvents_query %}
