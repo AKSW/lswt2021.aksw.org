@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-23_15-41</version>
-    <conference><title>9. Leipziger Semantic Web Tag</title>
+    <version>2021-06-23_16-38</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -11,12 +11,12 @@
         <room name="Main Track">
             
             <event id="997">
-                <title>Kaffeepause und Postersession</title>
+                <title>Coffee Break and Postersession</title>
                 <date>2021-07-07T11:00:00Z</date>
                 <start>11:00</start>
                 <duration>00:20</duration>
                 <person></person>
-                <track>Break</track>
+                <track>Pause</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
@@ -24,7 +24,7 @@
         
             
             <event id="101">
-                <title>Begrüßung</title>
+                <title>Welcome</title>
                 <date>2021-07-07T09:00:00Z</date>
                 <start>09:00</start>
                 <duration>00:10</duration>
@@ -37,7 +37,7 @@
         
             
             <event id="1227">
-                <title>Poster Gewinner und Abschluss</title>
+                <title>Poster Winner and Closing</title>
                 <date>2021-07-07T17:45:00Z</date>
                 <start>17:45</start>
                 <duration>00:30</duration>
@@ -49,16 +49,16 @@
             </event>
         
             
-            <event id="999">
-                <title>Kaffeepause und Postersession</title>
-                <date>2021-07-07T15:30:00Z</date>
-                <start>15:30</start>
-                <duration>00:30</duration>
+            <event id="998">
+                <title>Lunch Break</title>
+                <date>2021-07-07T12:40:00Z</date>
+                <start>12:40</start>
+                <duration></duration>
                 <person></person>
-                <track>Break</track>
+                <track>Pause</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
             </event>
         
             
@@ -75,16 +75,16 @@
             </event>
         
             
-            <event id="998">
-                <title>Mittagspause</title>
-                <date>2021-07-07T12:40:00Z</date>
-                <start>12:40</start>
-                <duration></duration>
+            <event id="999">
+                <title>Coffee Break and Postersession</title>
+                <date>2021-07-07T15:30:00Z</date>
+                <start>15:30</start>
+                <duration>00:30</duration>
                 <person></person>
-                <track>Break</track>
+                <track>Pause</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+                <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
         
         </room>
