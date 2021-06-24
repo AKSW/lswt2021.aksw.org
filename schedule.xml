@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-24_05-45</version>
+    <version>2021-06-24_06-52</version>
     <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
@@ -23,29 +23,16 @@
             </event>
         
             
-            <event id="1227">
-                <title>Poster Gewinner und Abschluss</title>
-                <date>2021-07-07T17:45:00Z</date>
-                <start>17:45</start>
-                <duration>00:30</duration>
+            <event id="997">
+                <title>Kaffeepause und Postersession</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration>00:20</duration>
                 <person></person>
-                <track>Main Track</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#closing</slug>
-            </event>
-        
-            
-            <event id="1012">
-                <title>1 Minute Pitches der Studenten</title>
-                <date>2021-07-07T10:45:00Z</date>
-                <start>10:45</start>
-                <duration>00:15</duration>
-                <person></person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
+                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
             </event>
         
             
@@ -62,8 +49,21 @@
             </event>
         
             
+            <event id="1012">
+                <title>1 Minute Pitches der Studenten</title>
+                <date>2021-07-07T10:45:00Z</date>
+                <start>10:45</start>
+                <duration>00:15</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
+            </event>
+        
+            
             <event id="101">
-                <title>Begrüßung</title>
+                <title>Welcome</title>
                 <date>2021-07-07T09:00:00Z</date>
                 <start>09:00</start>
                 <duration>00:10</duration>
@@ -75,21 +75,21 @@
             </event>
         
             
-            <event id="997">
-                <title>Kaffeepause und Postersession</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration>00:20</duration>
+            <event id="1227">
+                <title>Poster Gewinner und Abschluss</title>
+                <date>2021-07-07T17:45:00Z</date>
+                <start>17:45</start>
+                <duration>00:30</duration>
                 <person></person>
-                <track>Break</track>
+                <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
+                <slug>https://lswt2021.aksw.org/#closing</slug>
             </event>
         
         </room>
     
-        <room name="DBpedia Track (July 8th)">
+        <room name="DBpedia Track (8. Juli)">
             
             <event id="">
                 <title>DBpedia Tutorial</title>
@@ -97,8 +97,8 @@
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (July 8th)</track>
-                <room>DBpedia Track (July 8th)</room>
+                <track>DBpedia Track (8. Juli)</track>
+                <room>DBpedia Track (8. Juli)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
