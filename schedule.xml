@@ -1,64 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-25_13-37</version>
-    <conference><title>9th Leipzig Semantic Web Day</title>
+    <version>2021-06-25_15-02</version>
+    <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
         <generator>Jekyll v4.2.0</generator>
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
-        <room name="Vorträge">
-            
-            <event id="998">
-                <title>Mittagspause</title>
-                <date>2021-07-07T12:40:00Z</date>
-                <start>12:40</start>
-                <duration></duration>
-                <person></person>
-                <track>Pause</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
-            </event>
-        
-            
-            <event id="1227">
-                <title>Poster Winner and Closing</title>
-                <date>2021-07-07T17:45:00Z</date>
-                <start>17:45</start>
-                <duration></duration>
-                <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#closing</slug>
-            </event>
-        
-            
-            <event id="101">
-                <title>Welcome</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration></duration>
-                <person>Natanael Arndt, Sebastian Tramp</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
+        <room name="Main Track">
             
             <event id="997">
-                <title>Coffee Break and Postersession</title>
+                <title>Coffee Break</title>
                 <date>2021-07-07T11:00:00Z</date>
                 <start>11:00</start>
                 <duration></duration>
                 <person></person>
                 <track>Pause</track>
-                <room>Vorträge</room>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
+            </event>
+        
+            
+            <event id="1227">
+                <title>Poster Gewinner und Abschluss</title>
+                <date>2021-07-07T17:45:00Z</date>
+                <start>17:45</start>
+                <duration></duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#closing</slug>
+            </event>
+        
+            
+            <event id="998">
+                <title>Lunch Break</title>
+                <date>2021-07-07T12:40:00Z</date>
+                <start>12:40</start>
+                <duration></duration>
+                <person></person>
+                <track>Pause</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
             </event>
         
             
@@ -69,27 +56,40 @@
                 <duration>00:30</duration>
                 <person></person>
                 <track>Pause</track>
-                <room>Vorträge</room>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
         
             
             <event id="1012">
-                <title>1 Minute Pitches of the Studenten</title>
+                <title>1 Minute Pitches der Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
                 <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
             </event>
         
+            
+            <event id="101">
+                <title>Begrüßung</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration></duration>
+                <person>Sebastian Tramp, Natanael Arndt</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
         </room>
     
-        <room name="DBpedia Track (July 8th)">
+        <room name="DBpedia Track (8. Juli)">
             
             <event id="">
                 <title>DBpedia Tutorial </title>
@@ -97,8 +97,8 @@
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (July 8th)</track>
-                <room>DBpedia Track (July 8th)</room>
+                <track>DBpedia Track (8. Juli)</track>
+                <room>DBpedia Track (8. Juli)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
