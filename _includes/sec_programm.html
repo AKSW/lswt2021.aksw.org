@@ -56,12 +56,16 @@
     {% for subEvent_row in subEvents %}
     {% assign subEvent = subEvent_row.event %}
     {% assign performer = subEvent | rdf_property: "schema:performer" %}
+    {% assign title = subEvent | rdf_property: "rdfs:label", page.language %}
+    {% unless title %}
+    {% assign title = subEvent | rdf_property: "rdfs:label" %}
+    {% endunless %}
     {% assign slideLink = subEvent | rdf_property: "schema:recordedIn" %}
       <li>
     {% if slideLink %}
-      „<a id="{{ subEvent | split: "#" | last }}" href="{{ subEvent | rdf_property: "schema:recordedIn" }}">{{ subEvent | rdf_property: "rdfs:label" }}</a>“
+      „<a id="{{ subEvent | split: "#" | last }}" href="{{ slideLink }}">{{ title }}</a>“
     {% else %}
-      <a id="{{ subEvent | split: "#" | last }}"></a>„{{ subEvent | rdf_property: "rdfs:label" }}“
+      <a id="{{ subEvent | split: "#" | last }}"></a>„{{ title }}“
     {% endif %}
     {% if performer %}
        – {% include performer.html event=subEvent join="; " %}

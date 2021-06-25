@@ -13,7 +13,14 @@ individual
 {%- assign persons = "" | split: " " -%}
 {%- assign performers = event | rdf_property: "schema:performer", nil, true -%}
 {%- for performer in performers -%}
+{%- assign name = performer | rdf_property: "skos:prefLabel" -%}
+{%- unless name -%}
+{%- assign name = performer | rdf_property: "foaf:name" -%}
+{%- endunless -%}
+{%- assign description = performer | rdf_property: "dct:description", site.language -%}
+{%- unless name -%}
 {%- assign description = performer | rdf_property: "dct:description" -%}
+{%- endunless -%}
 {%- assign homepage = performer | rdf_property: "foaf:homepage" -%}
 {%- capture person -%}
 {%- if style == "individual" -%}
@@ -26,10 +33,6 @@ individual
 {%- endif -%}
 </div>
 {%- else -%}
-{%- assign name = performer | rdf_property: "skos:prefLabel" -%}
-{%- unless name -%}
-{%- assign name = performer | rdf_property: "foaf:name" -%}
-{%- endunless -%}
 {%- if homepage -%}
 <a href="{{ homepage }}">{{ name }}</a>
 {%- else -%}
