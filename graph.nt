@@ -190,10 +190,11 @@
 <https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Begrüßung"@de .
 <https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Welcome"@en .
 <https://lswt2021.aksw.org/#closing> <http://ns.ontowiki.net/SysOnt/Site/id> "1227"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://lswt2021.aksw.org/#closing> <http://schema.org/endDate> "2021-07-07T18:15+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/duration> "P0Y0M0DT0H10M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/endDate> "2021-07-07T18:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#closing> <http://schema.org/funder> <https://lswt2021.aksw.org/#eccenca> .
 <https://lswt2021.aksw.org/#closing> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
-<https://lswt2021.aksw.org/#closing> <http://schema.org/startDate> "2021-07-07T17:45+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/startDate> "2021-07-07T17:50:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#closing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#closing> <http://www.w3.org/2000/01/rdf-schema#label> "Eccenca Poster Awards and Closing"@en .
 <https://lswt2021.aksw.org/#closing> <http://www.w3.org/2000/01/rdf-schema#label> "Verleihung der eccenca Poster Awards und Abschluss"@de .
