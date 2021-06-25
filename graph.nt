@@ -452,8 +452,8 @@
 <https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maximilian Ressel" .
 <https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> <http://xmlns.com/foaf/0.1/name> "Maximilian Ressel" .
-<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://purl.org/dc/terms/description> "Bundesministerium des Innern, für Bau und Heimat"^^<file:///data/> .
-<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://purl.org/dc/terms/description> "German Federal Ministry of the Interior, Building and Community"^^<file:///data/> .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://purl.org/dc/terms/description> "Bundesministerium des Innern, für Bau und Heimat"@de .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://purl.org/dc/terms/description> "German Federal Ministry of the Interior, Building and Community"@en .
 <https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ann Kristin Falkenhain" .
 <https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://xmlns.com/foaf/0.1/name> "Ann Kristin Falkenhain" .
