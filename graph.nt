@@ -210,8 +210,8 @@
 <https://lswt2021.aksw.org/#ersteKaffeePause> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#ersteKaffeePause> <http://schema.org/startDate> "2021-07-07T11:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break and Postersession"@en .
-<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause und Postersession"@de .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break"@en .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause"@de .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/id> "102"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackKeynote> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "P0Y0M0DT0H35M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
@@ -270,6 +270,33 @@
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christoph Lange" .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://xmlns.com/foaf/0.1/homepage> <http://dbis.rwth-aachen.de/cms/staff/christophlange> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://schema.org/duration> "P0Y0M0DT1H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://schema.org/endDate> "2021-07-07T12:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://schema.org/startDate> "2021-07-07T11:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramPitches> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramTeaching> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://www.w3.org/2000/01/rdf-schema#label> "Session III"@de .
+<https://lswt2021.aksw.org/371bb181-69f9-4fed-960a-959e9c066179> <http://www.w3.org/2000/01/rdf-schema#label> "Session III"@en .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://schema.org/duration> "P0Y0M0DT1H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://schema.org/endDate> "2021-07-07T12:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://schema.org/startDate> "2021-07-07T11:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramPitches> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramTeaching> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://www.w3.org/2000/01/rdf-schema#label> "Session II"@de .
+<https://lswt2021.aksw.org/90554191-77d5-4799-a6fe-f59929374b4d> <http://www.w3.org/2000/01/rdf-schema#label> "Session II"@en .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://schema.org/duration> "P0Y0M0DT1H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://schema.org/endDate> "2021-07-07T12:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://schema.org/startDate> "2021-07-07T11:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramPitches> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramTeaching> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://www.w3.org/2000/01/rdf-schema#label> "Session I"@de .
+<https://lswt2021.aksw.org/9971f24c-d790-4dc9-b872-8b3d167d4a07> <http://www.w3.org/2000/01/rdf-schema#label> "Session I"@en .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/cfp> <https://lswt2021.aksw.org/#CFP> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/flyer> <https://lswt2021.aksw.org/Flyer.pdf> .
 <https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
