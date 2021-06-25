@@ -26,10 +26,14 @@ individual
 {%- endif -%}
 </div>
 {%- else -%}
+{%- assign name = performer | rdf_property: "skos:prefLabel" -%}
+{%- unless name -%}
+{%- assign name = performer | rdf_property: "foaf:name" -%}
+{%- endunless -%}
 {%- if homepage -%}
-<a href="{{ homepage }}">{{ performer | rdf_property: "foaf:name" }}</a>
+<a href="{{ homepage }}">{{ name }}</a>
 {%- else -%}
-{{ performer | rdf_property: "foaf:name" }}
+{{ name }}
 {%- endif -%}
 {%- if description -%}
 {{ description | markdownify | remove: "<p>" | remove: "</p>" | strip | prepend: ", " }}

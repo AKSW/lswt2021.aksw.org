@@ -1,9 +1,15 @@
 
-<div class="section" id="Programm">
+<div class="container" id="Programm">
 
   {%- assign rooms = rootResource | rdf_container: "site:rooms" -%}
   {% for room in rooms %}
-  <div class="container" id="{{ room | split: "#" | last }}">
+  <div class="section" id="{{ room | split: "#" | last }}">
+    {% assign maintrack = "lswt:vortragsraum" | rdf_get %}
+    {% if room == maintrack %}
+    {% assign showdate = false %}
+    {% else %}
+    {% assign showdate = true %}
+    {% endif %}
     <h2 style="display: inline">{{ room | rdf_property: "rdfs:label", page.language }}</h2>
 
     <p>
@@ -26,9 +32,9 @@
     {% assign track = event | rdf_property: "site:track" %}
     {% assign pause = "lswt:pause" | rdf_get %}
     {% if track == pause %}
-    <h3 class="pause">{% if events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
+    <h3 class="pause">{% if showdate and events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
     {% else %}
-    <h3 id="{{ event | split: "#" | last }}">{% if events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
+    <h3 id="{{ event | split: "#" | last }}">{% if showdate and events_row.start and events_row.end %}{{start}} bis {{end}}: {% endif %}{{ event | rdf_property: "rdfs:label", page.language }}</h3>
     {% endif %}
     {% include performer.html event=event join="; " style="individual" %}
 
@@ -40,7 +46,7 @@
     {% capture subEvents_query %}
     SELECT ?event WHERE {
       <{{ event.iri }}> schema:subEvent ?event .
-      ?event schema:startDate ?date .
+      optional { ?event schema:startDate ?date }
     } ORDER BY ASC(?date)
     {% endcapture %}
 
