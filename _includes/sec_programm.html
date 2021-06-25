@@ -55,6 +55,7 @@
     <ul>
     {% for subEvent_row in subEvents %}
     {% assign subEvent = subEvent_row.event %}
+    {% assign performer = subEvent | rdf_property: "schema:performer" %}
     {% assign slideLink = subEvent | rdf_property: "schema:recordedIn" %}
       <li>
     {% if slideLink %}
@@ -62,7 +63,9 @@
     {% else %}
       <a id="{{ subEvent | split: "#" | last }}"></a>„{{ subEvent | rdf_property: "rdfs:label" }}“
     {% endif %}
+    {% if performer %}
        – {% include performer.html event=subEvent join="; " %}
+    {% endif %}
        </li>
     {% endfor %}
     </ul>
