@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-26_01-41</version>
-    <conference><title>9. Leipziger Semantic Web Tag</title>
+    <version>2021-06-26_03-36</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -9,19 +9,6 @@
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Main Track">
-            
-            <event id="">
-                <title>Linked Data Services of the German National Library</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration>P0Y0M0DT0H15M0.000S</duration>
-                <person>Tracy Arndt</person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
-            </event>
-        
             
             <event id="101">
                 <title>Begrüßung</title>
@@ -33,19 +20,6 @@
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
-            
-            <event id="997">
-                <title>Kaffeepause</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration></duration>
-                <person></person>
-                <track>Pause</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
             </event>
         
             
@@ -62,6 +36,32 @@
             </event>
         
             
+            <event id="997">
+                <title>Coffee Break</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration></duration>
+                <person></person>
+                <track>Pause</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
+            </event>
+        
+            
+            <event id="998">
+                <title>Mittagspause</title>
+                <date>2021-07-07T12:40:00Z</date>
+                <start>12:40</start>
+                <duration></duration>
+                <person></person>
+                <track>Pause</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+            </event>
+        
+            
             <event id="102">
                 <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
                 <date>2021-07-07T10:00:00Z</date>
@@ -75,25 +75,25 @@
             </event>
         
             
-            <event id="998">
-                <title>Lunch Break</title>
-                <date>2021-07-07T12:40:00Z</date>
-                <start>12:40</start>
-                <duration></duration>
-                <person></person>
-                <track>Pause</track>
+            <event id="">
+                <title>Linked Data Services of the German National Library</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration>P0Y0M0DT0H15M0.000S</duration>
+                <person>Tracy Arndt</person>
+                <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+                <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
             </event>
         
             
             <event id="">
-                <title>Introduction the the Poster Session</title>
+                <title>Einführung der Poster Sesseion</title>
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Prof. Dr. Vera Meister, Prof. Dr. Andreas Both, Thomas Riechert</person>
+                <person>Prof. Dr. Vera Meister, Thomas Riechert, Prof. Dr. Andreas Both</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -115,7 +115,7 @@
         
             
             <event id="1012">
-                <title>1 Minute Pitches of the Studenten</title>
+                <title>1 Minute Pitches der Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -128,7 +128,7 @@
         
             
             <event id="">
-                <title>Poster Präsentation</title>
+                <title>Poster Presentation</title>
                 <date>2021-07-07T13:35:00Z</date>
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
@@ -141,7 +141,7 @@
         
             
             <event id="1227">
-                <title>Eccenca Poster Awards and Closing</title>
+                <title>Verleihung der eccenca Poster Awards und Abschluss</title>
                 <date>2021-07-07T17:50:00Z</date>
                 <start>17:50</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
@@ -157,7 +157,7 @@
         <room name="DBpedia Track (8. Juli)">
             
             <event id="">
-                <title>DBpedia Tutorial </title>
+                <title>DBpedia Tutorial</title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
