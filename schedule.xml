@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-26_14-59</version>
-    <conference><title>9th Leipzig Semantic Web Day</title>
+    <version>2021-06-26_15-40</version>
+    <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -62,8 +62,21 @@
             </event>
         
             
+            <event id="1012">
+                <title>1 Minute Pitches der Studenten</title>
+                <date>2021-07-07T13:15:00Z</date>
+                <start>13:15</start>
+                <duration>P0Y0M0DT0H20M0.000S</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
+            </event>
+        
+            
             <event id="">
-                <title>Poster Presentation</title>
+                <title>Poster Präsentation</title>
                 <date>2021-07-07T13:35:00Z</date>
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
@@ -72,6 +85,32 @@
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979</slug>
+            </event>
+        
+            
+            <event id="1227">
+                <title>Eccenca Poster Awards and Closing</title>
+                <date>2021-07-07T17:50:00Z</date>
+                <start>17:50</start>
+                <duration>P0Y0M0DT0H10M0.000S</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#closing</slug>
+            </event>
+        
+            
+            <event id="999">
+                <title>Coffee Break and Postersession</title>
+                <date>2021-07-07T15:30:00Z</date>
+                <start>15:30</start>
+                <duration>00:30</duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
         
             
@@ -113,51 +152,12 @@
                 <slug>https://lswt2021.aksw.org/#begruessung</slug>
             </event>
         
-            
-            <event id="1227">
-                <title>Eccenca Poster Awards and Closing</title>
-                <date>2021-07-07T17:50:00Z</date>
-                <start>17:50</start>
-                <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person></person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#closing</slug>
-            </event>
-        
-            
-            <event id="999">
-                <title>Kaffeepause und Postersession</title>
-                <date>2021-07-07T15:30:00Z</date>
-                <start>15:30</start>
-                <duration>00:30</duration>
-                <person></person>
-                <track>Break</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
-            </event>
-        
-            
-            <event id="1012">
-                <title>1 Minute Pitches of the Studenten</title>
-                <date>2021-07-07T13:15:00Z</date>
-                <start>13:15</start>
-                <duration>P0Y0M0DT0H20M0.000S</duration>
-                <person></person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
-            </event>
-        
         </room>
     
         <room name="DBpedia Track (8. Juli)">
             
             <event id="">
-                <title>DBpedia Tutorial</title>
+                <title>DBpedia Tutorial </title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
