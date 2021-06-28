@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-28_15-43</version>
+    <version>2021-06-28_16-39</version>
     <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
@@ -37,11 +37,11 @@
         
             
             <event id="">
-                <title>Einführung der Poster-Session</title>
+                <title>Introduction the the Poster Session</title>
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Thomas Riechert, Prof. Dr. Andreas Both, Prof. Dr. Vera Meister</person>
+                <person>Prof. Dr. Vera Meister, Prof. Dr. Andreas Both, Thomas Riechert</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -50,7 +50,7 @@
         
             
             <event id="">
-                <title>Ankündigung der eccenca Poster Preise</title>
+                <title>Announcement of the eccenca best poster awards</title>
                 <date>2021-07-07T13:10:00Z</date>
                 <start>13:10</start>
                 <duration>P0Y0M0DT0H5M0.000S</duration>
@@ -59,6 +59,19 @@
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234</slug>
+            </event>
+        
+            
+            <event id="998">
+                <title>Lunch Break</title>
+                <date>2021-07-07T12:40:00Z</date>
+                <start>12:40</start>
+                <duration></duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
             </event>
         
             
@@ -88,34 +101,8 @@
             </event>
         
             
-            <event id="1227">
-                <title>Verleihung der eccenca Poster Awards und Abschluss</title>
-                <date>2021-07-07T17:50:00Z</date>
-                <start>17:50</start>
-                <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person></person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#closing</slug>
-            </event>
-        
-            
-            <event id="997">
-                <title>Coffee Break</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration></duration>
-                <person></person>
-                <track>Pause</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
-            </event>
-        
-            
             <event id="101">
-                <title>Begrüßung</title>
+                <title>Welcome</title>
                 <date>2021-07-07T09:00:00Z</date>
                 <start>09:00</start>
                 <duration></duration>
@@ -127,16 +114,29 @@
             </event>
         
             
-            <event id="998">
-                <title>Mittagspause</title>
-                <date>2021-07-07T12:40:00Z</date>
-                <start>12:40</start>
+            <event id="997">
+                <title>Coffee Break</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
                 <duration></duration>
                 <person></person>
-                <track>Pause</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
+            </event>
+        
+            
+            <event id="1227">
+                <title>Eccenca Poster Awards and Closing</title>
+                <date>2021-07-07T17:50:00Z</date>
+                <start>17:50</start>
+                <duration>P0Y0M0DT0H10M0.000S</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#closing</slug>
             </event>
         
             
@@ -146,7 +146,7 @@
                 <start>15:30</start>
                 <duration>00:30</duration>
                 <person></person>
-                <track>Pause</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
@@ -157,7 +157,7 @@
         <room name="DBpedia Track (8. Juli)">
             
             <event id="">
-                <title>DBpedia Tutorial</title>
+                <title>DBpedia Tutorial </title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
