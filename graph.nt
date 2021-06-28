@@ -175,6 +175,7 @@
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <https://lswt2021.aksw.org/#AndreasBoth> .
 <https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <https://lswt2021.aksw.org/#VeraMeister> .
 <https://lswt2021.aksw.org/#VeraMeister> <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" .
+<https://lswt2021.aksw.org/#VeraMeister> <http://purl.org/dc/terms/description> "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> .
 <https://lswt2021.aksw.org/#VeraMeister> <http://schema.org/affiliation> <https://www.th-brandenburg.de/> .
 <https://lswt2021.aksw.org/#VeraMeister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/#VeraMeister> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Vera Meister" .
