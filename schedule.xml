@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-06-30_10-44</version>
+    <version>2021-06-30_11-45</version>
     <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
@@ -37,7 +37,7 @@
         
             
             <event id="">
-                <title>Einführung der Poster-Session</title>
+                <title>Introduction the the Poster Session</title>
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
@@ -75,19 +75,6 @@
             </event>
         
             
-            <event id="1227">
-                <title>Verleihung der eccenca Poster Awards und Abschluss</title>
-                <date>2021-07-07T17:50:00Z</date>
-                <start>17:50</start>
-                <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person></person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#closing</slug>
-            </event>
-        
-            
             <event id="">
                 <title>Poster Presentation of the Student Projects</title>
                 <date>2021-07-07T13:35:00Z</date>
@@ -101,8 +88,21 @@
             </event>
         
             
+            <event id="997">
+                <title>Coffee Break</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration></duration>
+                <person></person>
+                <track>Pause</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
+            </event>
+        
+            
             <event id="101">
-                <title>Begrüßung</title>
+                <title>Welcome</title>
                 <date>2021-07-07T09:00:00Z</date>
                 <start>09:00</start>
                 <duration></duration>
@@ -114,13 +114,26 @@
             </event>
         
             
+            <event id="1227">
+                <title>Eccenca Poster Awards and Closing</title>
+                <date>2021-07-07T17:50:00Z</date>
+                <start>17:50</start>
+                <duration>P0Y0M0DT0H10M0.000S</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#closing</slug>
+            </event>
+        
+            
             <event id="998">
-                <title>Mittagspause</title>
+                <title>Lunch Break</title>
                 <date>2021-07-07T12:40:00Z</date>
                 <start>12:40</start>
                 <duration></duration>
                 <person></person>
-                <track>Break</track>
+                <track>Pause</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
@@ -128,42 +141,29 @@
         
             
             <event id="999">
-                <title>Coffee Break and Postersession</title>
+                <title>Kaffeepause und Postersession</title>
                 <date>2021-07-07T15:30:00Z</date>
                 <start>15:30</start>
                 <duration>00:30</duration>
                 <person></person>
-                <track>Break</track>
+                <track>Pause</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
         
-            
-            <event id="997">
-                <title>Kaffeepause</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration></duration>
-                <person></person>
-                <track>Break</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
-            </event>
-        
         </room>
     
-        <room name="DBpedia Track (8. Juli)">
+        <room name="DBpedia Track (July 8th)">
             
             <event id="">
-                <title>DBpedia Tutorial </title>
+                <title>DBpedia Tutorial</title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (8. Juli)</track>
-                <room>DBpedia Track (8. Juli)</room>
+                <track>DBpedia Track (July 8th)</track>
+                <room>DBpedia Track (July 8th)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
