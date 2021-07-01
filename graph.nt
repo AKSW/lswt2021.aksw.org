@@ -320,7 +320,7 @@
 <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://schema.org/performer> <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> .
 <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/2000/01/rdf-schema#label> "Project StahlDigital - combining material science workflows with ontologies"@en .
+<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/2000/01/rdf-schema#label> "Project StahlDigital - Towards Ontology-aided industrial simulation workflows"@en .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institut"@de .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institute"@en .
@@ -419,6 +419,7 @@
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik"^^<file:///data/> .
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lars-Peter Meyer" .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS"@en .
@@ -450,6 +451,7 @@
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik, Leipzig"^^<file:///data/> .
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
 <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/performer> <https://lswt2021.aksw.org/#AndreasBoth> .
