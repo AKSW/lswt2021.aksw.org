@@ -223,10 +223,10 @@
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/id> "102"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackKeynote> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "P0Y0M0DT0H30M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
-<https://lswt2021.aksw.org/#keynote> <http://schema.org/endDate> "2021-07-07T10:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/endDate> "2021-07-07T09:45:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#keynote> <http://schema.org/performer> <https://lswt2021.aksw.org/#SonjaSchimmler> .
-<https://lswt2021.aksw.org/#keynote> <http://schema.org/startDate> "2021-07-07T10:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/startDate> "2021-07-07T09:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence"@de .
 <https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence"@en .
@@ -279,9 +279,9 @@
 <https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III"@de .
 <https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III"@en .
 <https://lswt2021.aksw.org/#start> <http://schema.org/duration> "P0Y0M0DT0H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
-<https://lswt2021.aksw.org/#start> <http://schema.org/endDate> "2021-07-07T10:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#start> <http://schema.org/endDate> "2021-07-07T09:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#start> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
-<https://lswt2021.aksw.org/#start> <http://schema.org/startDate> "2021-07-07T09:45:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#start> <http://schema.org/startDate> "2021-07-07T09:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#start> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#begruessung> .
 <https://lswt2021.aksw.org/#start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#start> <http://www.w3.org/2000/01/rdf-schema#label> "Start"@de .
