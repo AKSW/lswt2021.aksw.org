@@ -252,6 +252,7 @@
 <https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> .
 <https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> .
 <https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> .
 <https://lswt2021.aksw.org/#session-i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I"@de .
 <https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I"@en .
@@ -259,9 +260,10 @@
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/endDate> "2021-07-07T16:05:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/startDate> "2021-07-07T14:45:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> .
-<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> .
 <https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II"@de .
 <https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II"@en .
@@ -269,7 +271,6 @@
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/endDate> "2021-07-07T17:50:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/startDate> "2021-07-07T16:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/84f690d7-f7fa-4ba1-b7f2-0eabf070778b> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> .
@@ -320,11 +321,15 @@
 <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://schema.org/performer> <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> .
 <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/2000/01/rdf-schema#label> "Project StahlDigital - combining material science workflows with ontologies"@en .
+<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/2000/01/rdf-schema#label> "Project StahlDigital - Towards Ontology-aided industrial simulation workflows"@en .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institut"@de .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institute"@en .
 <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://xmlns.com/foaf/0.1/homepage> <https://www.weizenbaum-institut.de/> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://schema.org/performer> <https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://www.w3.org/2000/01/rdf-schema#label> "Reuse, a simple principle with practical challenges"@en .
 <https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://schema.org/performer> <https://lswt2021.aksw.org/#VeraMeister> .
 <https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -419,6 +424,7 @@
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik"^^<file:///data/> .
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lars-Peter Meyer" .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
 <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS"@en .
@@ -450,7 +456,12 @@
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik, Leipzig"^^<file:///data/> .
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
 <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://purl.org/dc/terms/description> "[Tenforce](https://www.tenforce.com/)"^^<file:///data/> .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bert Van Nuffelen" .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://xmlns.com/foaf/0.1/name> "Bert Van Nuffelen" .
 <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
 <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/performer> <https://lswt2021.aksw.org/#AndreasBoth> .
 <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/performer> <https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> .
