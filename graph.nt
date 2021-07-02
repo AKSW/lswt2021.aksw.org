@@ -312,8 +312,8 @@
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam des Studentenprogramms"@de .
 <https://lswt2021.aksw.org/#studentProgramTeam> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm ist noch in Arbeit, es kann sich jederzeit ohne Vorankündigung ändern. Wir planen gegen 9 Uhr zu starten und das Programm geht voraussichtlich bis etwa 18 Uhr."@de .
-<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The program is still in the making, The schedule might change without notice. We plan to start at 9 a.m. and the program will end around 6 p.m."@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm kann sich jederzeit ohne Vorankündigung ändern."@de .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The schedule might change without notice."@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
 <https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vorträge"@de .
 <https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "999"^^<http://www.w3.org/2001/XMLSchema#integer> .
