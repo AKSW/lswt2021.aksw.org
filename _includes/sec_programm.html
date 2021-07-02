@@ -5,11 +5,7 @@
   {% for room in rooms %}
   <div class="section" id="{{ room | split: "#" | last }}">
     {% assign maintrack = "lswt:vortragsraum" | rdf_get %}
-    {% if room == maintrack %}
-    {% assign showdate = false %}
-    {% else %}
     {% assign showdate = true %}
-    {% endif %}
     <h2 style="display: inline">{{ room | rdf_property: "rdfs:label", page.language }}</h2>
 
     <p>
