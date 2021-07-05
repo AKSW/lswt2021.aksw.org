@@ -265,8 +265,8 @@
 <https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> .
 <https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> .
 <https://lswt2021.aksw.org/#session-i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I"@de .
-<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I"@en .
+<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I – Linked Data for the Folks"@en .
+<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I – Linked Data für die Leute"@de .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/duration> "P0Y0M0DT1H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/endDate> "2021-07-07T15:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
@@ -276,8 +276,8 @@
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> .
 <https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> .
 <https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II"@de .
-<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II"@en .
+<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II – Industrie und Wirtschaft"@de .
+<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II – Industry and Enterprise"@en .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/duration> "P0Y0M0DT1H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/endDate> "2021-07-07T17:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
@@ -287,8 +287,8 @@
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> .
 <https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> .
 <https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III"@de .
-<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III"@en .
+<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III – Data Infrastructures and Scaling"@en .
+<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III – Dateninfrastrukturen und Skalierung "@de .
 <https://lswt2021.aksw.org/#start> <http://schema.org/duration> "P0Y0M0DT0H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
 <https://lswt2021.aksw.org/#start> <http://schema.org/endDate> "2021-07-07T09:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/#start> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
