@@ -89,7 +89,7 @@
 <https://lswt2020.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2020" .
 <https://lswt2021.aksw.org/#Access> <http://schema.org/url> <https://play.workadventu.re/@/infai/infai/lswt2021> .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/VirtualLocation> .
-<https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "Der LSWT2021 findet online in einer 2D-Welt (Wokradventure) statt. Wenn Sie schwierigkeiten mit der Nutzung der 2D-Welt haben finden sie den Livestream der Vorträge auf einer [extra Seite](https://aksw.github.io/lswt2021.stream/stream.html)."@de .
+<https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "Der LSWT2021 findet online in einer 2D-Welt (Wokradventure) statt. Wenn Sie Schwierigkeiten mit der Nutzung der 2D-Welt haben finden sie den Livestream der Vorträge auf einer [extra Seite](https://aksw.github.io/lswt2021.stream/stream.html)."@de .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "The LSWT2021 will take place on-line in a 2D world (workadventure). If you get in trouble connecting to the 2D world you will find a livestream of the talks on [an extra page](https://aksw.github.io/lswt2021.stream/stream.html)."@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Access"@en .
 <https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Zugang"@de .
