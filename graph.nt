@@ -13,7 +13,7 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MichaelMartin.png" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Projektleiter @ [AKSW](http://aksw.org/)/[InfAI Management GmbH](https://infai.org/)" .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Projektleiter, [AKSW](http://aksw.org/)/[InfAI Management GmbH](https://infai.org/)" .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -33,7 +33,7 @@
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Hellmann" .
-<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO @ [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)" .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
