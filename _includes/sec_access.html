@@ -5,5 +5,7 @@
 
     {% assign seeAlso = location | rdf_property: "rdfs:seeAlso" %}
     {{ location | rdf_property: "rdfs:comment", page.language | markdownify }}
+
+    <dd><a href="{{ location | rdf_property: "schema:url" }}" role="button" class="btn btn-success">{{ location | rdf_property: "rdfs:label", page.language }}</a></dd>
   </div>
 </div>
