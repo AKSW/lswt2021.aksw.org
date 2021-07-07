@@ -356,7 +356,8 @@
 <https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://schema.org/startDate> "2021-07-07T11:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://www.w3.org/2000/01/rdf-schema#label> "Linked Data Services of the German National Library"@en .
-<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://purl.org/dc/terms/description> "RWTH Aachen"^^<file:///data/> .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://purl.org/dc/terms/description> "Fraunhofer Institute for Applied Information Technology and RWTH Aachen University"@en .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://purl.org/dc/terms/description> "Fraunhofer-Institut für Angewandte Informationstechnik FIT und RWTH Aachen"@de .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christoph Lange" .
 <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://xmlns.com/foaf/0.1/homepage> <http://dbis.rwth-aachen.de/cms/staff/christophlange> .
