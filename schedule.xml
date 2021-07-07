@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-07_08-51</version>
-    <conference><title>9th Leipzig Semantic Web Day</title>
+    <version>2021-07-07_09-37</version>
+    <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -10,16 +10,16 @@
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Main Track">
             
-            <event id="999">
-                <title>Kaffeepause </title>
-                <date>2021-07-07T11:30:00Z</date>
-                <start>11:30</start>
-                <duration>P0Y0M0DT0H15M0.000S</duration>
-                <person></person>
-                <track>Break</track>
+            <event id="102">
+                <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
+                <date>2021-07-07T09:15:00Z</date>
+                <start>09:15</start>
+                <duration>P0Y0M0DT0H40M0.000S</duration>
+                <person>Dr. Sonja Schimmler</person>
+                <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
+                <slug>https://lswt2021.aksw.org/#keynote</slug>
             </event>
         
             
@@ -36,19 +36,6 @@
             </event>
         
             
-            <event id="101">
-                <title>Welcome</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration></duration>
-                <person>Sebastian Tramp, Natanael Arndt</person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
-            
             <event id="">
                 <title>Linked Data Services of the German National Library</title>
                 <date>2021-07-07T11:00:00Z</date>
@@ -62,25 +49,25 @@
             </event>
         
             
-            <event id="102">
-                <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
-                <date>2021-07-07T09:15:00Z</date>
-                <start>09:15</start>
-                <duration>P0Y0M0DT0H40M0.000S</duration>
-                <person>Dr. Sonja Schimmler</person>
-                <track>Main Track</track>
+            <event id="999">
+                <title>Coffee Break</title>
+                <date>2021-07-07T11:30:00Z</date>
+                <start>11:30</start>
+                <duration>P0Y0M0DT0H15M0.000S</duration>
+                <person></person>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#keynote</slug>
+                <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
         
             
             <event id="">
-                <title>Einführung der Poster-Session</title>
+                <title>Introduction the the Poster Session</title>
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Prof. Dr. Andreas Both, Prof. Dr. Vera Meister, Thomas Riechert</person>
+                <person>Prof. Dr. Vera Meister, Thomas Riechert, Prof. Dr. Andreas Both</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -101,21 +88,8 @@
             </event>
         
             
-            <event id="998">
-                <title>Mittagspause</title>
-                <date>2021-07-07T13:15:00Z</date>
-                <start>13:15</start>
-                <duration>P0Y0M0DT1H0M0.000S</duration>
-                <person></person>
-                <track>Break</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
-            </event>
-        
-            
             <event id="1012">
-                <title>1 Minute Pitches der Studenten</title>
+                <title>1 Minute Pitches of the Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -127,8 +101,34 @@
             </event>
         
             
+            <event id="998">
+                <title>Lunch Break</title>
+                <date>2021-07-07T13:15:00Z</date>
+                <start>13:15</start>
+                <duration>P0Y0M0DT1H0M0.000S</duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+            </event>
+        
+            
+            <event id="101">
+                <title>Welcome</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration></duration>
+                <person>Sebastian Tramp, Natanael Arndt</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
+            
             <event id="">
-                <title>Poster Präsentationen der Studierenden-Projekte</title>
+                <title>Poster Presentation of the Student Projects</title>
                 <date>2021-07-07T13:35:00Z</date>
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
