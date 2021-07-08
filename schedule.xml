@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-08_06-51</version>
-    <conference><title>9. Leipziger Semantic Web Tag</title>
+    <version>2021-07-08_07-37</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
         <generator>Jekyll v4.2.0</generator>
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
-        <room name="Vorträge">
+        <room name="Main Track">
+            
+            <event id="101">
+                <title>Welcome</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration></duration>
+                <person>Sebastian Tramp, Natanael Arndt</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
             
             <event id="102">
                 <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
@@ -16,23 +29,10 @@
                 <start>09:15</start>
                 <duration>P0Y0M0DT0H40M0.000S</duration>
                 <person>Dr. Sonja Schimmler</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#keynote</slug>
-            </event>
-        
-            
-            <event id="101">
-                <title>Begrüßung</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration></duration>
-                <person>Sebastian Tramp, Natanael Arndt</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
             </event>
         
             
@@ -42,8 +42,8 @@
                 <start>09:55</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
                 <person></person>
-                <track>Break</track>
-                <room>Vorträge</room>
+                <track>Pause</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
             </event>
@@ -55,21 +55,21 @@
                 <start>11:00</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
                 <person>Tracy Arndt</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
             </event>
         
             
             <event id="999">
-                <title>Coffee Break</title>
+                <title>Kaffeepause </title>
                 <date>2021-07-07T11:30:00Z</date>
                 <start>11:30</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
                 <person></person>
-                <track>Break</track>
-                <room>Vorträge</room>
+                <track>Pause</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
             </event>
@@ -80,48 +80,48 @@
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Prof. Dr. Andreas Both, Thomas Riechert, Prof. Dr. Vera Meister</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <person>Prof. Dr. Vera Meister, Thomas Riechert, Prof. Dr. Andreas Both</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423</slug>
             </event>
         
             
             <event id="">
-                <title>Ankündigung der eccenca Poster Preise</title>
+                <title>Announcement of the eccenca best poster awards</title>
                 <date>2021-07-07T13:10:00Z</date>
                 <start>13:10</start>
                 <duration>P0Y0M0DT0H5M0.000S</duration>
                 <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234</slug>
             </event>
         
             
             <event id="998">
-                <title>Mittagspause</title>
+                <title>Lunch Break</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT1H0M0.000S</duration>
                 <person></person>
-                <track>Break</track>
-                <room>Vorträge</room>
+                <track>Pause</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
             </event>
         
             
             <event id="1012">
-                <title>1 Minute Pitches der Studenten</title>
+                <title>1 Minute Pitches of the Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
                 <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#studentProgramPitches</slug>
             </event>
@@ -133,8 +133,8 @@
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
                 <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979</slug>
             </event>
@@ -146,21 +146,21 @@
                 <start>15:30</start>
                 <duration>P0Y0M0DT0H30M0.000S</duration>
                 <person></person>
-                <track>Break</track>
-                <room>Vorträge</room>
+                <track>Pause</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dritteKaffeePause</slug>
             </event>
         
             
             <event id="1227">
-                <title>Eccenca Poster Awards and Closing</title>
+                <title>Verleihung der eccenca Poster Awards und Abschluss</title>
                 <date>2021-07-07T17:15:00Z</date>
                 <start>17:15</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
                 <person></person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
+                <track>Main Track</track>
+                <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#closing</slug>
             </event>
