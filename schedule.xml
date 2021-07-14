@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-14_04-47</version>
-    <conference><title>9. Leipziger Semantic Web Tag</title>
+    <version>2021-07-14_05-45</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -10,13 +10,26 @@
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Main Track">
             
+            <event id="">
+                <title>Linked Data Services of the German National Library</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration>P0Y0M0DT0H15M0.000S</duration>
+                <person>Tracy Arndt</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
+            </event>
+        
+            
             <event id="997">
                 <title>Kaffeepause</title>
                 <date>2021-07-07T09:55:00Z</date>
                 <start>09:55</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
                 <person></person>
-                <track>Pause</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#ersteKaffeePause</slug>
@@ -49,26 +62,13 @@
             </event>
         
             
-            <event id="">
-                <title>Linked Data Services of the German National Library</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration>P0Y0M0DT0H15M0.000S</duration>
-                <person>Tracy Arndt</person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
-            </event>
-        
-            
             <event id="999">
-                <title>Kaffeepause </title>
+                <title>Coffee Break</title>
                 <date>2021-07-07T11:30:00Z</date>
                 <start>11:30</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
                 <person></person>
-                <track>Pause</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#zweiteKaffeePause</slug>
@@ -80,7 +80,7 @@
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Prof. Dr. Andreas Both, Thomas Riechert, Prof. Dr. Vera Meister</person>
+                <person>Thomas Riechert, Prof. Dr. Andreas Both, Prof. Dr. Vera Meister</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -102,7 +102,7 @@
         
             
             <event id="1012">
-                <title>1 Minute Pitches der Studenten</title>
+                <title>1 Minute Pitches of the Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -120,7 +120,7 @@
                 <start>13:15</start>
                 <duration>P0Y0M0DT1H0M0.000S</duration>
                 <person></person>
-                <track>Pause</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
@@ -146,7 +146,7 @@
                 <start>15:30</start>
                 <duration>P0Y0M0DT0H30M0.000S</duration>
                 <person></person>
-                <track>Pause</track>
+                <track>Break</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dritteKaffeePause</slug>
@@ -167,16 +167,16 @@
         
         </room>
     
-        <room name="DBpedia Track (July 8th)">
+        <room name="DBpedia Track (8. Juli)">
             
             <event id="">
-                <title>DBpedia Tutorial</title>
+                <title>DBpedia Tutorial </title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (July 8th)</track>
-                <room>DBpedia Track (July 8th)</room>
+                <track>DBpedia Track (8. Juli)</track>
+                <room>DBpedia Track (8. Juli)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
