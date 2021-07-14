@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-14_09-37</version>
-    <conference><title>9. Leipziger Semantic Web Tag</title>
+    <version>2021-07-14_10-43</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -24,7 +24,7 @@
         
             
             <event id="997">
-                <title>Kaffeepause</title>
+                <title>Coffee Break</title>
                 <date>2021-07-07T09:55:00Z</date>
                 <start>09:55</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -67,7 +67,7 @@
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Prof. Dr. Andreas Both, Prof. Dr. Vera Meister, Thomas Riechert</person>
+                <person>Thomas Riechert, Prof. Dr. Vera Meister, Prof. Dr. Andreas Both</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -106,7 +106,7 @@
                 <date>2021-07-07T09:00:00Z</date>
                 <start>09:00</start>
                 <duration></duration>
-                <person>Natanael Arndt, Sebastian Tramp</person>
+                <person>Sebastian Tramp, Natanael Arndt</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -128,7 +128,7 @@
         
             
             <event id="">
-                <title>Poster Präsentationen der Studierenden-Projekte</title>
+                <title>Poster Presentation of the Student Projects</title>
                 <date>2021-07-07T13:35:00Z</date>
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
@@ -141,7 +141,7 @@
         
             
             <event id="998">
-                <title>Kaffeepause</title>
+                <title>Coffee Break</title>
                 <date>2021-07-07T15:30:00Z</date>
                 <start>15:30</start>
                 <duration>P0Y0M0DT0H30M0.000S</duration>
@@ -154,7 +154,7 @@
         
             
             <event id="1227">
-                <title>Eccenca Poster Awards and Closing</title>
+                <title>Verleihung der eccenca Poster Awards und Abschluss</title>
                 <date>2021-07-07T17:15:00Z</date>
                 <start>17:15</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
@@ -167,7 +167,7 @@
         
         </room>
     
-        <room name="DBpedia Track (8. Juli)">
+        <room name="DBpedia Track (July 8th)">
             
             <event id="">
                 <title>DBpedia Tutorial</title>
@@ -175,8 +175,8 @@
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (8. Juli)</track>
-                <room>DBpedia Track (8. Juli)</room>
+                <track>DBpedia Track (July 8th)</track>
+                <room>DBpedia Track (July 8th)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
