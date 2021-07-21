@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-21_07-35</version>
-    <conference><title>9. Leipziger Semantic Web Tag</title>
+    <version>2021-07-21_08-49</version>
+    <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
@@ -9,32 +9,6 @@
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Vorträge">
-            
-            <event id="102">
-                <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
-                <date>2021-07-07T09:15:00Z</date>
-                <start>09:15</start>
-                <duration>P0Y0M0DT0H40M0.000S</duration>
-                <person>Dr. Sonja Schimmler</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#keynote</slug>
-            </event>
-        
-            
-            <event id="">
-                <title>Introduction the the Poster Session</title>
-                <date>2021-07-07T13:00:00Z</date>
-                <start>13:00</start>
-                <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Thomas Riechert, Prof. Dr. Vera Meister, Prof. Dr. Andreas Both</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423</slug>
-            </event>
-        
             
             <event id="997">
                 <title>Kaffeepause</title>
@@ -50,15 +24,15 @@
         
             
             <event id="">
-                <title>Ankündigung der eccenca Poster Preise</title>
-                <date>2021-07-07T13:10:00Z</date>
-                <start>13:10</start>
-                <duration>P0Y0M0DT0H5M0.000S</duration>
-                <person></person>
+                <title>Linked Data Services of the German National Library</title>
+                <date>2021-07-07T11:00:00Z</date>
+                <start>11:00</start>
+                <duration>P0Y0M0DT0H15M0.000S</duration>
+                <person>Tracy Arndt</person>
                 <track>Vorträge</track>
                 <room>Vorträge</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234</slug>
+                <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
             </event>
         
             
@@ -67,7 +41,7 @@
                 <date>2021-07-07T09:00:00Z</date>
                 <start>09:00</start>
                 <duration></duration>
-                <person>Natanael Arndt, Sebastian Tramp</person>
+                <person>Sebastian Tramp, Natanael Arndt</person>
                 <track>Vorträge</track>
                 <room>Vorträge</room>
                 <description><![CDATA[]]></description>
@@ -75,8 +49,21 @@
             </event>
         
             
+            <event id="102">
+                <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
+                <date>2021-07-07T09:15:00Z</date>
+                <start>09:15</start>
+                <duration>P0Y0M0DT0H40M0.000S</duration>
+                <person>Dr. Sonja Schimmler</person>
+                <track>Vorträge</track>
+                <room>Vorträge</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#keynote</slug>
+            </event>
+        
+            
             <event id="999">
-                <title>Coffee Break</title>
+                <title>Kaffeepause </title>
                 <date>2021-07-07T11:30:00Z</date>
                 <start>11:30</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
@@ -89,15 +76,28 @@
         
             
             <event id="">
-                <title>Linked Data Services of the German National Library</title>
-                <date>2021-07-07T11:00:00Z</date>
-                <start>11:00</start>
-                <duration>P0Y0M0DT0H15M0.000S</duration>
-                <person>Tracy Arndt</person>
+                <title>Introduction the the Poster Session</title>
+                <date>2021-07-07T13:00:00Z</date>
+                <start>13:00</start>
+                <duration>P0Y0M0DT0H10M0.000S</duration>
+                <person>Thomas Riechert, Prof. Dr. Andreas Both, Prof. Dr. Vera Meister</person>
                 <track>Vorträge</track>
                 <room>Vorträge</room>
                 <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436</slug>
+                <slug>https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423</slug>
+            </event>
+        
+            
+            <event id="">
+                <title>Ankündigung der eccenca Poster Preise</title>
+                <date>2021-07-07T13:10:00Z</date>
+                <start>13:10</start>
+                <duration>P0Y0M0DT0H5M0.000S</duration>
+                <person></person>
+                <track>Vorträge</track>
+                <room>Vorträge</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234</slug>
             </event>
         
             
@@ -115,7 +115,7 @@
         
             
             <event id="1012">
-                <title>1 Minute Pitches der Studenten</title>
+                <title>1 Minute Pitches of the Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -154,7 +154,7 @@
         
             
             <event id="1227">
-                <title>Eccenca Poster Awards and Closing</title>
+                <title>Verleihung der eccenca Poster Awards und Abschluss</title>
                 <date>2021-07-07T17:15:00Z</date>
                 <start>17:15</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
@@ -167,16 +167,16 @@
         
         </room>
     
-        <room name="DBpedia Track (July 8th)">
+        <room name="DBpedia Track (8. Juli)">
             
             <event id="">
-                <title>DBpedia Tutorial</title>
+                <title>DBpedia Tutorial </title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (July 8th)</track>
-                <room>DBpedia Track (July 8th)</room>
+                <track>DBpedia Track (8. Juli)</track>
+                <room>DBpedia Track (8. Juli)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
