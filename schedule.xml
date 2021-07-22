@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-22_21-35</version>
+    <version>2021-07-22_22-38</version>
     <conference><title>9th Leipzig Semantic Web Day</title>
         <acronym></acronym>
         <start>2021-07-07</start>
@@ -9,19 +9,6 @@
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Vorträge">
-            
-            <event id="101">
-                <title>Welcome</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration></duration>
-                <person>Sebastian Tramp, Natanael Arndt</person>
-                <track>Vorträge</track>
-                <room>Vorträge</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
             
             <event id="102">
                 <title>Keynote: A national research data infrastructure for data science and artificial intelligence</title>
@@ -62,8 +49,21 @@
             </event>
         
             
+            <event id="101">
+                <title>Welcome</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration></duration>
+                <person>Sebastian Tramp, Natanael Arndt</person>
+                <track>Vorträge</track>
+                <room>Vorträge</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
+            
             <event id="999">
-                <title>Coffee Break</title>
+                <title>Kaffeepause </title>
                 <date>2021-07-07T11:30:00Z</date>
                 <start>11:30</start>
                 <duration>P0Y0M0DT0H15M0.000S</duration>
@@ -80,7 +80,7 @@
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Prof. Dr. Andreas Both, Prof. Dr. Vera Meister, Thomas Riechert</person>
+                <person>Prof. Dr. Andreas Both, Thomas Riechert, Prof. Dr. Vera Meister</person>
                 <track>Vorträge</track>
                 <room>Vorträge</room>
                 <description><![CDATA[]]></description>
@@ -89,7 +89,7 @@
         
             
             <event id="">
-                <title>Ankündigung der eccenca Poster Preise</title>
+                <title>Announcement of the eccenca best poster awards</title>
                 <date>2021-07-07T13:10:00Z</date>
                 <start>13:10</start>
                 <duration>P0Y0M0DT0H5M0.000S</duration>
@@ -128,7 +128,7 @@
         
             
             <event id="">
-                <title>Poster Presentation of the Student Projects</title>
+                <title>Poster Präsentationen der Studierenden-Projekte</title>
                 <date>2021-07-07T13:35:00Z</date>
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
@@ -167,16 +167,16 @@
         
         </room>
     
-        <room name="DBpedia Track (July 8th)">
+        <room name="DBpedia Track (8. Juli)">
             
             <event id="">
-                <title>DBpedia Tutorial</title>
+                <title>DBpedia Tutorial </title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (July 8th)</track>
-                <room>DBpedia Track (July 8th)</room>
+                <track>DBpedia Track (8. Juli)</track>
+                <room>DBpedia Track (8. Juli)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
