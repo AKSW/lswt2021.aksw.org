@@ -1,0 +1,534 @@
+<http://aksw.org/Events/2013/LeipzigerSemanticWebTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<http://aksw.org/Events/2013/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2013" .
+<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
+<http://aksw.org/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://aksw.org/Group> <http://www.w3.org/2000/01/rdf-schema#label> "AKSW Research Group" .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
+<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
+<http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <http://aksw.org/Group> .
+<http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" .
+<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MichaelMartin.png" .
+<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
+<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Projektleiter, [AKSW](http://aksw.org/)/[InfAI Management GmbH](https://infai.org/)" .
+<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <http://aksw.org/Group> .
+<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/NatanaelArndt.png" .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
+<http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <http://aksw.org/Group> .
+<http://aksw.org/SandraFuchs> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SandraFuchs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SandraFuchs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandra Fuchs" .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SandraBartsch.png" .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SandraFuchs> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
+<http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik"^^<file:///data/> .
+<http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SebastianHellmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Sebastian Hellmann" .
+<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
+<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Hellmann" .
+<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Group> .
+<http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianTramp.png" .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<http://aksw.org/SoerenAuer> <http://schema.org/affiliation> <https://www.l3s.de/> .
+<http://aksw.org/SoerenAuer> <http://schema.org/affiliation> <https://www.tib.eu/> .
+<http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sören Auer" .
+<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SoerenAuer.jpg" .
+<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/> .
+<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/name> "Sören Auer" .
+<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" .
+<http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <http://aksw.org/Group> .
+<http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
+<http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasRiechert.png" .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
+<http://ns.ontowiki.net/SysOnt/Site/registrationPage> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung"@de .
+<http://ns.ontowiki.net/SysOnt/Site/registrationPage> <http://www.w3.org/2000/01/rdf-schema#label> "Registration"@en .
+<http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
+<http://schema.org/startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@de .
+<https://2014.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
+<https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
+<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
+<https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo_sq.svg" .
+<https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HTWK Leipzig" .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk_v.svg" .
+<https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "InfAI" .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_small.svg" .
+<https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
+<https://lswt2020.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2020.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2020" .
+<https://lswt2021.aksw.org/#Access> <http://schema.org/url> <https://play.workadventu.re/@/infai/infai/lswt2021> .
+<https://lswt2021.aksw.org/#Access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/VirtualLocation> .
+<https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "Der LSWT2021 findet online in einer 2D-Welt (Wokradventure) statt. Wenn Sie Schwierigkeiten mit der Nutzung der 2D-Welt haben finden sie den Livestream der Vorträge auf einer [extra Seite](https://aksw.github.io/lswt2021.stream/stream.html)."@de .
+<https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#comment> "The LSWT2021 will take place on-line in a 2D world (workadventure). If you get in trouble connecting to the 2D world you will find a livestream of the talks on [an extra page](https://aksw.github.io/lswt2021.stream/stream.html)."@en .
+<https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Access"@en .
+<https://lswt2021.aksw.org/#Access> <http://www.w3.org/2000/01/rdf-schema#label> "Zugang"@de .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://purl.org/dc/elements/1.1/description> "[Hochschule Anhalt](https://www.hs-anhalt.de)" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://purl.org/dc/terms/description> "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)"^^<file:///data/> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://schema.org/affiliation> <https://www.hs-anhalt.de/> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/images/people/AndreasBoth.jpg" .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
+<https://lswt2021.aksw.org/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Both" .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vorträgen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu präsentieren. Für die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern können Sie auch weitere mögliche Interessierte zur Einreichung von Beiträgen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
+<https://lswt2021.aksw.org/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
+<https://lswt2021.aksw.org/#MittagsPause> <http://ns.ontowiki.net/SysOnt/Site/id> "998"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://schema.org/duration> "P0Y0M0DT1H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://schema.org/endDate> "2021-07-07T14:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://schema.org/startDate> "2021-07-07T13:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Lunch Break"@en .
+<https://lswt2021.aksw.org/#MittagsPause> <http://www.w3.org/2000/01/rdf-schema#label> "Mittagspause"@de .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://htwk-leipzig.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.hs-anhalt.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://infai.org/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.l3s.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.th-brandenburg.de/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://www.tib.eu/> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partner"@de .
+<https://lswt2021.aksw.org/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "Partners"@en .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://web.archive.org/web/20131219160129/http://wiki.aksw.org/Events/2010/LeipzigerSemanticWebDay> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2020.aksw.org/> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://lswt2019.aksw.org/> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://informatik2017.de/ws29-ledsplay17/> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2016.semantics.cc/> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2014.semantics.cc/> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://web.archive.org/web/20150530150440/http://wiki.aksw.org/Events/2012/LeipzigerSemanticWebDay> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventSeries> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "Previous Events"@en .
+<https://lswt2021.aksw.org/#PreviousEvents> <http://www.w3.org/2000/01/rdf-schema#label> "Rückblick"@de .
+<https://lswt2021.aksw.org/#Programm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
+<https://lswt2021.aksw.org/#Programm> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@en .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://purl.org/dc/terms/description> "Sonja Schimmler leads the research group \"Digitalisation and Science\" at the Weizenbaum Institute and at Fraunhofer FOKUS. She is also an associated researcher at the Technical University of Berlin. In her research, she focuses on the digitalisation and opening of science and puts a special emphasis on research data infrastructures. Her research interests range from semantic web and linked data over data science and artificial intelligence to software engineering and human-centered computing. She is doing fundamental interdisciplinary and application-oriented research."^^<file:///data/> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://schema.org/affiliation> <https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://schema.org/affiliation> <https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Sonja Schimmler" .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sonja Schimmler" .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SonjaSchimmler.jpeg" .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/homepage> <https://www.weizenbaum-institut.de/portrait/p/sonja-schimmler/> .
+<https://lswt2021.aksw.org/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/name> "Dr. Sonja Schimmler" .
+<https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
+<https://lswt2021.aksw.org/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SoerenAuer> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lswt2021.aksw.org/#AndreasBoth> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/MichaelMartin> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://lswt2021.aksw.org/#VeraMeister> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team"@en .
+<https://lswt2021.aksw.org/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MichaelMartin> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NatanaelArndt> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SoerenAuer> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <https://lswt2021.aksw.org/#AndreasBoth> .
+<https://lswt2021.aksw.org/#Team> <http://xmlns.com/foaf/0.1/member> <https://lswt2021.aksw.org/#VeraMeister> .
+<https://lswt2021.aksw.org/#VeraMeister> <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" .
+<https://lswt2021.aksw.org/#VeraMeister> <http://purl.org/dc/terms/description> "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> .
+<https://lswt2021.aksw.org/#VeraMeister> <http://schema.org/affiliation> <https://www.th-brandenburg.de/> .
+<https://lswt2021.aksw.org/#VeraMeister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/#VeraMeister> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Vera Meister" .
+<https://lswt2021.aksw.org/#VeraMeister> <http://xmlns.com/foaf/0.1/depiction> "/images/people/VeraMeister.png" .
+<https://lswt2021.aksw.org/#VeraMeister> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> .
+<https://lswt2021.aksw.org/#VeraMeister> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Vera Meister" .
+<https://lswt2021.aksw.org/#begruessung> <http://ns.ontowiki.net/SysOnt/Site/id> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#begruessung> <http://schema.org/endDate> "2021-07-07T09:10+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#begruessung> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#begruessung> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
+<https://lswt2021.aksw.org/#begruessung> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/#begruessung> <http://schema.org/startDate> "2021-07-07T09:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Begrüßung"@de .
+<https://lswt2021.aksw.org/#begruessung> <http://www.w3.org/2000/01/rdf-schema#label> "Welcome"@en .
+<https://lswt2021.aksw.org/#closing> <http://ns.ontowiki.net/SysOnt/Site/id> "1227"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/duration> "P0Y0M0DT0H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/endDate> "2021-07-07T17:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/funder> <https://lswt2021.aksw.org/#eccenca> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#closing> <http://schema.org/startDate> "2021-07-07T17:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#closing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#closing> <http://www.w3.org/2000/01/rdf-schema#label> "Eccenca Poster Awards and Closing"@en .
+<https://lswt2021.aksw.org/#closing> <http://www.w3.org/2000/01/rdf-schema#label> "Verleihung der eccenca Poster Awards und Abschluss"@de .
+<https://lswt2021.aksw.org/#dbpedia-track> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<https://lswt2021.aksw.org/#dbpedia-track> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Track (8. Juli)"@de .
+<https://lswt2021.aksw.org/#dbpedia-track> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Track (July 8th)"@en .
+<https://lswt2021.aksw.org/#dbpedia> <http://purl.org/dc/terms/description> "DBpedia organisiert im Rahmen des LSWT ein Knowledge Graph Tutorial. Das Online-Event findet am Donnerstag, 8. Juli 2021 ab 13:00 Uhr statt und thematisiert die Entwicklungen rund um den DBpedia Databus. Das Tutorial richtet sich an bestehende und potenzielle neue Nutzer von DBpedia, an Entwickler, die lernen möchten, wie man die DBpedia-Infrastruktur repliziert, an Dienstleister, die den DBpedia Knowlede Graph (KG) nutzen möchten, an Datenanbieter, die Datenbestände in den DBpedia KG integrieren möchten und an Wissenschaftler (z. B. Linguisten), die relevante Informationen (z. B. linguistische) aus dem DBpedia KG extrahieren. \n\nIm Laufe des Tutorial werden die Teilnehmer Kenntnisse erlangen über:\n\n- den DBpedia Knowledge Graph, d.h. von der Extraktion und Modellierung bis hin zur Veröffentlichung und Pflege von DBpedia Daten,\n- wie man Informationen findet, auf den DBpedia KG zugreift, ihn abfragt und mit ihm arbeitet,\n- den DBpedia Databus sowie verschiedene Services (Spotlight, Archivo, etc.)\n- die Replizierung des DBpedia KG dessen Infrastruktur, \n- die Nutzung von DBpedia in Anwendungen von Drittanbietern und\nwie man zur Verbesserung des KG beitragen.\n\nObwohl das Tutorial so gestaltet ist, dass keine besonderen Voraussetzungen erforderlich sind, profitieren die Teilnehmenden von Vorkenntnissen über die Konzepte und Technologien des Semantic Web (RDF, OWL, SPARQL), einem allgemeinen Überblick über die Webarchitektur (HTTP, URI, JSON, etc.) und grundlegenden Programmierkenntnissen (bash, Java, JavaScript)."@de .
+<https://lswt2021.aksw.org/#dbpedia> <http://purl.org/dc/terms/description> "DBpedia will organize a Knowledge Graph Tutorial on July 8, 2021 at 1pm CEST. The tutorial targets existing and potential new users of DBpedia, developers that wish to learn how to replicate DBpedia infrastructure, service providers interested in exploiting the DBpedia Knowlede Graph (KG), data providers interested in integrating data assets with the DBpedia KG and data scientists (e.g. linguists) focused on extracting relevant information (e.g. linguistic) from/based on the DBpedia KG.\n\nDuring the course of the tutorial the participants will gain knowledge about:\n- the complete DBpedia Knowledge Graph lifecycle, i.e. from extraction and modelling to publishing and maintenance of DBpedia,\n- how to find information, access, query and work with the DBpedia KG,\n- the DBpedia infrastructure – the Databus platform and services (Spotlight, Archivo, etc),\n- how to replicate the DBpedia knowledge graph and infrastructure,\n- how to use DBpedia in third-party applications and\n- how to contribute and improve the DBpedia Knowledge Graph.\n\nAltough the tutorial will be shaped in a way that no specific prerequisites will be required, the participants would benefit if they have some background knowledge in Semantic Web concepts and technologies (RDF, OWL, SPARQL), general overview of the Web Architecture (HTTP, URI, JSON, etc.) and basic programming skills (bash, Java, JavaScript).  "@en .
+<https://lswt2021.aksw.org/#dbpedia> <http://schema.org/duration> "P0Y0M0DT3H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#dbpedia> <http://schema.org/endDate> "2021-07-08T16:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#dbpedia> <http://schema.org/location> <https://lswt2021.aksw.org/#dbpedia-track> .
+<https://lswt2021.aksw.org/#dbpedia> <http://schema.org/startDate> "2021-07-08T13:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#dbpedia> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Tutorial "@de .
+<https://lswt2021.aksw.org/#dbpedia> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Tutorial"@en .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "998"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://schema.org/duration> "P0Y0M0DT0H30M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://schema.org/endDate> "2021-07-07T16:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://schema.org/startDate> "2021-07-07T15:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break"@en .
+<https://lswt2021.aksw.org/#dritteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause"@de .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://schema.org/duration> "P0Y0M0DT0H20M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://schema.org/endDate> "2021-07-07T10:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://schema.org/startDate> "2021-07-07T09:55:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break"@en .
+<https://lswt2021.aksw.org/#ersteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause"@de .
+<https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/id> "102"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#keynote> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackKeynote> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/duration> "P0Y0M0DT0H40M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/endDate> "2021-07-07T09:55:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/performer> <https://lswt2021.aksw.org/#SonjaSchimmler> .
+<https://lswt2021.aksw.org/#keynote> <http://schema.org/startDate> "2021-07-07T09:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence"@de .
+<https://lswt2021.aksw.org/#keynote> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote: A national research data infrastructure for data science and artificial intelligence"@en .
+<https://lswt2021.aksw.org/#pause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#pause> <http://www.w3.org/2000/01/rdf-schema#label> "Break"@en .
+<https://lswt2021.aksw.org/#pause> <http://www.w3.org/2000/01/rdf-schema#label> "Pause"@de .
+<https://lswt2021.aksw.org/#posterSession> <http://ns.ontowiki.net/SysOnt/Site/id> "1010"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/duration> "P0Y0M0DT1H30M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/endDate> "2021-07-07T13:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/startDate> "2021-07-07T11:45:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#studentProgramPitches> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/subEvent> <https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/subEvent> <https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> .
+<https://lswt2021.aksw.org/#posterSession> <http://schema.org/subEvent> <https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> .
+<https://lswt2021.aksw.org/#posterSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#posterSession> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Session"@de .
+<https://lswt2021.aksw.org/#posterSession> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Session"@en .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/duration> "P0Y0M0DT1H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/endDate> "2021-07-07T11:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/startDate> "2021-07-07T10:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> .
+<https://lswt2021.aksw.org/#session-i> <http://schema.org/subEvent> <https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> .
+<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I – Linked Data for the Folks"@en .
+<https://lswt2021.aksw.org/#session-i> <http://www.w3.org/2000/01/rdf-schema#label> "Session I – Linked Data für die Leute"@de .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/duration> "P0Y0M0DT1H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/endDate> "2021-07-07T15:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/startDate> "2021-07-07T14:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> .
+<https://lswt2021.aksw.org/#session-ii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> .
+<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II – Industrie und Wirtschaft"@de .
+<https://lswt2021.aksw.org/#session-ii> <http://www.w3.org/2000/01/rdf-schema#label> "Session II – Industry and Enterprise"@en .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/duration> "P0Y0M0DT1H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/endDate> "2021-07-07T17:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/startDate> "2021-07-07T16:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/84f690d7-f7fa-4ba1-b7f2-0eabf070778b> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> .
+<https://lswt2021.aksw.org/#session-iii> <http://schema.org/subEvent> <https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> .
+<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III – Data Infrastructures and Scaling"@en .
+<https://lswt2021.aksw.org/#session-iii> <http://www.w3.org/2000/01/rdf-schema#label> "Session III – Dateninfrastrukturen und Skalierung "@de .
+<https://lswt2021.aksw.org/#start> <http://schema.org/duration> "P0Y0M0DT0H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#start> <http://schema.org/endDate> "2021-07-07T09:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#start> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#start> <http://schema.org/startDate> "2021-07-07T09:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#start> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#begruessung> .
+<https://lswt2021.aksw.org/#start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#start> <http://www.w3.org/2000/01/rdf-schema#label> "Start"@de .
+<https://lswt2021.aksw.org/#start> <http://www.w3.org/2000/01/rdf-schema#label> "Start"@en .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://ns.ontowiki.net/SysOnt/Site/id> "1012"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#trackLDResearch> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://schema.org/duration> "P0Y0M0DT0H20M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://schema.org/endDate> "2021-07-07T13:35:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://schema.org/startDate> "2021-07-07T13:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://www.w3.org/2000/01/rdf-schema#label> "1 Minute Pitches der Studenten"@de .
+<https://lswt2021.aksw.org/#studentProgramPitches> <http://www.w3.org/2000/01/rdf-schema#label> "1 Minute Pitches of the Studenten"@en .
+<https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
+<https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Team of the Student Program"@en .
+<https://lswt2021.aksw.org/#studentProgramTeam> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam des Studentenprogramms"@de .
+<https://lswt2021.aksw.org/#studentProgramTeam> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Programm kann sich jederzeit ohne Vorankündigung ändern."@de .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#comment> "The schedule might change without notice."@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Main Track"@en .
+<https://lswt2021.aksw.org/#vortragsraum> <http://www.w3.org/2000/01/rdf-schema#label> "Vorträge"@de .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/id> "999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://ns.ontowiki.net/SysOnt/Site/track> <https://lswt2021.aksw.org/#pause> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://schema.org/duration> "P0Y0M0DT0H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://schema.org/endDate> "2021-07-07T11:45:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://schema.org/startDate> "2021-07-07T11:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break"@en .
+<https://lswt2021.aksw.org/#zweiteKaffeePause> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffeepause "@de .
+<https://lswt2021.aksw.org/00e3ccb7-9bb7-4092-8dd1-d25765cb7213> <http://purl.org/dc/terms/description> "Linked Data Services, German National Library"^^<file:///data/> .
+<https://lswt2021.aksw.org/00e3ccb7-9bb7-4092-8dd1-d25765cb7213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/00e3ccb7-9bb7-4092-8dd1-d25765cb7213> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tracy Arndt" .
+<https://lswt2021.aksw.org/00e3ccb7-9bb7-4092-8dd1-d25765cb7213> <http://xmlns.com/foaf/0.1/name> "Tracy Arndt" .
+<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://schema.org/performer> <https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> .
+<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/01430f71-e0df-4b07-9def-b2bc14270196> <http://www.w3.org/2000/01/rdf-schema#label> "Project StahlDigital - Towards Ontology-aided industrial simulation workflows"@en .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institut"@de .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://www.w3.org/2000/01/rdf-schema#label> "Weizenbaum Institute"@en .
+<https://lswt2021.aksw.org/01818221-9fe5-469a-b6ef-0456154b15e5> <http://xmlns.com/foaf/0.1/homepage> <https://www.weizenbaum-institut.de/> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://schema.org/performer> <https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/0619f316-de67-464c-9ea5-bbb83746e18a> <http://www.w3.org/2000/01/rdf-schema#label> "Reuse, a simple principle with practical challenges"@en .
+<https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://schema.org/performer> <https://lswt2021.aksw.org/#VeraMeister> .
+<https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/0fdfe174-5e7b-4b69-80b7-195c3987f5cc> <http://www.w3.org/2000/01/rdf-schema#label> "Outline of a Graph-based Body of Knowledge for IT Governance at HEI in the Brandenburg State"@en .
+<https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
+<https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/183fc9d7-f860-4c3e-8fc8-0fee3ace0f37> <http://www.w3.org/2000/01/rdf-schema#label> "Adding Knowledge To Your Data: Enterprise Knowledge Graph Management with eccenca Corporate Memory"@en .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://schema.org/duration> "P0Y0M0DT0H15M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://schema.org/endDate> "2021-07-07T11:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://schema.org/performer> <https://lswt2021.aksw.org/00e3ccb7-9bb7-4092-8dd1-d25765cb7213> .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://schema.org/startDate> "2021-07-07T11:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/2c843503-2bef-445f-be9f-592cca880436> <http://www.w3.org/2000/01/rdf-schema#label> "Linked Data Services of the German National Library"@en .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://purl.org/dc/terms/description> "Fraunhofer Institute for Applied Information Technology and RWTH Aachen University"@en .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://purl.org/dc/terms/description> "Fraunhofer-Institut für Angewandte Informationstechnik FIT und RWTH Aachen"@de .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christoph Lange" .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://xmlns.com/foaf/0.1/homepage> <http://dbis.rwth-aachen.de/cms/staff/christophlange> .
+<https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> <http://xmlns.com/foaf/0.1/name> "Christoph Lange-Bever" .
+<https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> <http://schema.org/performer> <https://lswt2021.aksw.org/bbeaff20-9636-436e-8c94-a371ca8f68a1> .
+<https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/3529e05d-a960-4ad1-ac11-4d17f1b3a9b5> <http://www.w3.org/2000/01/rdf-schema#label> "Organizing structured scholarly knowledge with the Open Research Knowledge Graph"@en .
+<https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> <http://schema.org/performer> <https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> .
+<https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> <http://schema.org/performer> <https://lswt2021.aksw.org/f6ce5e96-bdf3-4516-b627-59f4f3e3ef40> .
+<https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/47aa4d33-79c2-4a06-9661-c954b7bc3337> <http://www.w3.org/2000/01/rdf-schema#label> "Updates DBpedia: stable releases, data beyond wikipedia, all ontologies and DBpedia Live Part II"@en .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://schema.org/duration> "P0Y0M0DT0H5M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://schema.org/endDate> "2021-07-07T13:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://schema.org/startDate> "2021-07-07T13:10:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://www.w3.org/2000/01/rdf-schema#label> "Ankündigung der eccenca Poster Preise"@de .
+<https://lswt2021.aksw.org/59c39476-61ce-4247-9ecb-236766204234> <http://www.w3.org/2000/01/rdf-schema#label> "Announcement of the eccenca best poster awards"@en .
+<https://lswt2021.aksw.org/84f690d7-f7fa-4ba1-b7f2-0eabf070778b> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/84f690d7-f7fa-4ba1-b7f2-0eabf070778b> <http://schema.org/performer> <https://lswt2021.aksw.org/329bf3d5-6835-4ab5-b048-da305ee29299> .
+<https://lswt2021.aksw.org/84f690d7-f7fa-4ba1-b7f2-0eabf070778b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/84f690d7-f7fa-4ba1-b7f2-0eabf070778b> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Web Technology driving the Federated Secure Data Infrastructure Gaia-X: Conceptual Model, Federated Catalogue, Self-Description, Sovereign Data Exchange, and Applications"@en .
+<https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> <http://schema.org/performer> <https://lswt2021.aksw.org/e725d902-edee-4c87-854d-8bc8c4981d82> .
+<https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/94d190a8-adb0-4e69-a0cc-dafe7ce2c4ac> <http://www.w3.org/2000/01/rdf-schema#label> "Scaling OpenRefine with and without Apache Spark"@en .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://schema.org/duration> "P0Y0M0DT0H55M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://schema.org/endDate> "2021-07-07T14:30:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://schema.org/startDate> "2021-07-07T13:35:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Presentation of the Student Projects"@en .
+<https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Präsentationen der Studierenden-Projekte"@de .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/cfp> <https://lswt2021.aksw.org/#CFP> .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/flyer> <https://lswt2021.aksw.org/Flyer.pdf> .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/invitation> <https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/programm> <https://lswt2021.aksw.org/#Programm> .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/registrationPage> <https://pretix.eu/infai/lswt2021/> .
+<https://lswt2021.aksw.org/> <http://ns.ontowiki.net/SysOnt/Site/rooms> <https://lswt2021.aksw.org/RoomsList> .
+<https://lswt2021.aksw.org/> <http://schema.org/duration> "P0Y0M0DT0H0M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/> <http://schema.org/endDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://lswt2021.aksw.org/> <http://schema.org/location> <https://lswt2021.aksw.org/#Access> .
+<https://lswt2021.aksw.org/> <http://schema.org/logo> <https://lswt2021.aksw.org/images/logo.png> .
+<https://lswt2021.aksw.org/> <http://schema.org/organizer> <https://lswt2021.aksw.org/#Team> .
+<https://lswt2021.aksw.org/> <http://schema.org/partner> <https://lswt2021.aksw.org/#Partner> .
+<https://lswt2021.aksw.org/> <http://schema.org/sponsor> <https://lswt2021.aksw.org/#Sponsors> .
+<https://lswt2021.aksw.org/> <http://schema.org/startDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#MittagsPause> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#closing> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#dbpedia> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#dritteKaffeePause> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#ersteKaffeePause> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#keynote> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#posterSession> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#session-i> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#session-ii> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#session-iii> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#start> .
+<https://lswt2021.aksw.org/> <http://schema.org/subEvent> <https://lswt2021.aksw.org/#zweiteKaffeePause> .
+<https://lswt2021.aksw.org/> <http://schema.org/successorOf> <https://lswt2021.aksw.org/#PreviousEvents> .
+<https://lswt2021.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Leipziger Semantic Web Tag (LSWT) bietet [seit 2009](#PreviousEvents) WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert ([Programm](#Programm)).\n Falls Sie weitere Fragen haben können Sie sich auch gerne an das [Organisations-Team](#Team) wenden."@de .
+<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "[Since 2009](#PreviousEvents), the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science ([Schedule](#Programm)).\n If you have any further questions don't hesitate to contact the [organisation team](#Team)."@en .
+<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9. Leipziger Semantic Web Tag"@de .
+<https://lswt2021.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "9th Leipzig Semantic Web Day"@en .
+<https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Einladung"@de .
+<https://lswt2021.aksw.org/Einladung-LSWT2021.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Invitation"@en .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://lswt2021.aksw.org/#dbpedia-track> .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://lswt2021.aksw.org/RoomsList> <http://www.w3.org/2000/01/rdf-schema#label> "Rooms" .
+<https://lswt2021.aksw.org/a187e368-5612-4562-93a7-026747bfb284> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik"^^<file:///data/> .
+<https://lswt2021.aksw.org/a187e368-5612-4562-93a7-026747bfb284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/a187e368-5612-4562-93a7-026747bfb284> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dennis Streitmatter" .
+<https://lswt2021.aksw.org/a187e368-5612-4562-93a7-026747bfb284> <http://xmlns.com/foaf/0.1/name> "Dennis Streitmatter" .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik"^^<file:///data/> .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lars-Peter Meyer" .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
+<https://lswt2021.aksw.org/a94557bb-29fd-4902-8108-bb4d8e6ac1da> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
+<https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS"@en .
+<https://lswt2021.aksw.org/ae609f1a-81ee-44e5-bb3d-410e665919c2> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/> .
+<https://lswt2021.aksw.org/bbeaff20-9636-436e-8c94-a371ca8f68a1> <http://purl.org/dc/terms/description> "TIB Hannover"^^<file:///data/> .
+<https://lswt2021.aksw.org/bbeaff20-9636-436e-8c94-a371ca8f68a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/bbeaff20-9636-436e-8c94-a371ca8f68a1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allard Oelen" .
+<https://lswt2021.aksw.org/bbeaff20-9636-436e-8c94-a371ca8f68a1> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/en/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/allard-oelen/> .
+<https://lswt2021.aksw.org/bbeaff20-9636-436e-8c94-a371ca8f68a1> <http://xmlns.com/foaf/0.1/name> "Allard Oelen" .
+<https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> <http://schema.org/performer> <https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> .
+<https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/bde54ad2-63c8-4e72-af97-93807735f14c> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive Economy Intelligence Plattform für die Resilienz wirtschaftlicher Ökosysteme (CoyPu) - Projektvorstellung"@en .
+<https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
+<https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> <http://schema.org/performer> <https://lswt2021.aksw.org/a187e368-5612-4562-93a7-026747bfb284> .
+<https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/c5bfded0-e766-4eab-bfa6-bbb5d506fb51> <http://www.w3.org/2000/01/rdf-schema#label> "Updates DBpedia: stable releases, data beyond wikipedia, all ontologies and DBpedia Live Part I"@en .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/duration> "P0Y0M0DT0H10M0.000S"^^<http://www.w3.org/2001/XMLSchema#duration> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/endDate> "2021-07-07T13:10:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/performer> <https://lswt2021.aksw.org/#AndreasBoth> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/performer> <https://lswt2021.aksw.org/#VeraMeister> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://schema.org/startDate> "2021-07-07T13:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://www.w3.org/2000/01/rdf-schema#label> "Einführung der Poster-Session"@de .
+<https://lswt2021.aksw.org/da58c0e7-0bfe-4122-9232-5502c6fbc423> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction the the Poster Session"@en .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik, Leipzig"^^<file:///data/> .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
+<https://lswt2021.aksw.org/db534763-c994-4dcc-b0f8-c0c1e26e2886> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://purl.org/dc/terms/description> "[Tenforce](https://www.tenforce.com/)"^^<file:///data/> .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bert Van Nuffelen" .
+<https://lswt2021.aksw.org/dd5beef9-df53-4560-b2be-7495c94a81c9> <http://xmlns.com/foaf/0.1/name> "Bert Van Nuffelen" .
+<https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/location> <https://lswt2021.aksw.org/#vortragsraum> .
+<https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/performer> <https://lswt2021.aksw.org/#AndreasBoth> .
+<https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://schema.org/performer> <https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> .
+<https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2021.aksw.org/e145a1ca-8ee4-4c44-a816-1ec1d9916c52> <http://www.w3.org/2000/01/rdf-schema#label> "Extending the German Federal Coronabot with Question Answering using Semantics Technology and the Wikidata Knowledge Graph"@en .
+<https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maximilian Ressel" .
+<https://lswt2021.aksw.org/e4c1d0e4-4c10-471f-b54f-51c494a8d752> <http://xmlns.com/foaf/0.1/name> "Maximilian Ressel" .
+<https://lswt2021.aksw.org/e725d902-edee-4c87-854d-8bc8c4981d82> <http://purl.org/dc/terms/description> "Doctoral Student, University of Oxford"^^<file:///data/> .
+<https://lswt2021.aksw.org/e725d902-edee-4c87-854d-8bc8c4981d82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/e725d902-edee-4c87-854d-8bc8c4981d82> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antonin Delpeuch" .
+<https://lswt2021.aksw.org/e725d902-edee-4c87-854d-8bc8c4981d82> <http://xmlns.com/foaf/0.1/homepage> <http://antonin.delpeuch.eu/> .
+<https://lswt2021.aksw.org/e725d902-edee-4c87-854d-8bc8c4981d82> <http://xmlns.com/foaf/0.1/name> "Antonin Delpeuch" .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://purl.org/dc/terms/description> "[Bundesministerium des Innern, für Bau und Heimat](https://www.bmi.bund.de/)"@de .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://purl.org/dc/terms/description> "[German Federal Ministry of the Interior, Building and Community](https://www.bmi.bund.de/)"@en .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ann Kristin Falkenhain" .
+<https://lswt2021.aksw.org/f378f107-4a8a-4659-b2c2-98684f1c5514> <http://xmlns.com/foaf/0.1/name> "Ann Kristin Falkenhain" .
+<https://lswt2021.aksw.org/f6ce5e96-bdf3-4516-b627-59f4f3e3ef40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://lswt2021.aksw.org/f6ce5e96-bdf3-4516-b627-59f4f3e3ef40> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alexander Winter" .
+<https://lswt2021.aksw.org/f6ce5e96-bdf3-4516-b627-59f4f3e3ef40> <http://xmlns.com/foaf/0.1/name> "Alexander Winter" .
+<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Anmeldung über Pretix"@de .
+<https://pretix.eu/infai/lswt2021/> <http://www.w3.org/2000/01/rdf-schema#label> "Registration via Pretix"@en .
+<https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://web.archive.org/web/20120926225119/http://aksw.org/Events/2011/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2011" .
+<https://web.archive.org/web/20131219160129/http://wiki.aksw.org/Events/2010/LeipzigerSemanticWebDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://web.archive.org/web/20131219160129/http://wiki.aksw.org/Events/2010/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2010" .
+<https://web.archive.org/web/20150530150440/http://wiki.aksw.org/Events/2012/LeipzigerSemanticWebDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://web.archive.org/web/20150530150440/http://wiki.aksw.org/Events/2012/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2012 " .
+<https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://web.archive.org/web/20150808075745/http://wiki.aksw.org:80/Events/2009/LeipzigerSemanticWebDay> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2009" .
+<https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://web.archive.org/web/20190118125843/https://www.leds-projekt.de/lswt2018.html> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2018" .
+<https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_w.svg" .
+<https://www.hs-anhalt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.hs-anhalt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Anhalt" .
+<https://www.hs-anhalt.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-anhalt.de/> .
+<https://www.hs-anhalt.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/HSA.svg" .
+<https://www.l3s.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.l3s.de/> <http://www.w3.org/2000/01/rdf-schema#label> "L3S" .
+<https://www.l3s.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l3s.de/> .
+<https://www.l3s.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/l3s.jpg" .
+<https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
+<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
+<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
+<https://www.tib.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.tib.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "TIB" .
+<https://www.tib.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/> .
+<https://www.tib.eu/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/TIB.svg" .
