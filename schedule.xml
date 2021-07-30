@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-07-30_11-41</version>
+    <version>2021-07-30_12-40</version>
     <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
@@ -20,19 +20,6 @@
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#keynote</slug>
-            </event>
-        
-            
-            <event id="101">
-                <title>Welcome</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration></duration>
-                <person>Sebastian Tramp, Natanael Arndt</person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
             </event>
         
             
@@ -76,11 +63,11 @@
         
             
             <event id="">
-                <title>Einführung der Poster-Session</title>
+                <title>Introduction the the Poster Session</title>
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Thomas Riechert, Prof. Dr. Andreas Both, Prof. Dr. Vera Meister</person>
+                <person>Prof. Dr. Andreas Both, Prof. Dr. Vera Meister, Thomas Riechert</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -101,19 +88,6 @@
             </event>
         
             
-            <event id="998">
-                <title>Mittagspause</title>
-                <date>2021-07-07T13:15:00Z</date>
-                <start>13:15</start>
-                <duration>P0Y0M0DT1H0M0.000S</duration>
-                <person></person>
-                <track>Break</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
-            </event>
-        
-            
             <event id="1012">
                 <title>1 Minute Pitches of the Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
@@ -127,8 +101,21 @@
             </event>
         
             
+            <event id="998">
+                <title>Mittagspause</title>
+                <date>2021-07-07T13:15:00Z</date>
+                <start>13:15</start>
+                <duration>P0Y0M0DT1H0M0.000S</duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+            </event>
+        
+            
             <event id="">
-                <title>Poster Presentation of the Student Projects</title>
+                <title>Poster Präsentationen der Studierenden-Projekte</title>
                 <date>2021-07-07T13:35:00Z</date>
                 <start>13:35</start>
                 <duration>P0Y0M0DT0H55M0.000S</duration>
@@ -150,6 +137,19 @@
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dritteKaffeePause</slug>
+            </event>
+        
+            
+            <event id="101">
+                <title>Begrüßung</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration></duration>
+                <person>Natanael Arndt, Sebastian Tramp</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
             </event>
         
             
