@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedule>
-    <version>2021-08-06_21-07</version>
-    <conference><title>9th Leipzig Semantic Web Day</title>
+    <version>2022-03-16_12-42</version>
+    <conference><title>9. Leipziger Semantic Web Tag</title>
         <acronym></acronym>
         <start>2021-07-07</start>
         <end>2021-07-07</end>
-        <generator>Jekyll v4.2.0</generator>
+        <generator>Jekyll v4.2.2</generator>
     </conference>
     <day date="2021-07-07" start="2021-07-07" end="2021-07-07" index="1">
         <room name="Main Track">
@@ -24,7 +24,7 @@
         
             
             <event id="997">
-                <title>Kaffeepause</title>
+                <title>Coffee Break</title>
                 <date>2021-07-07T09:55:00Z</date>
                 <start>09:55</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -67,7 +67,7 @@
                 <date>2021-07-07T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT0H10M0.000S</duration>
-                <person>Thomas Riechert, Prof. Dr. Vera Meister, Prof. Dr. Andreas Both</person>
+                <person>Prof. Dr. Vera Meister, Prof. Dr. Andreas Both, Thomas Riechert</person>
                 <track>Main Track</track>
                 <room>Main Track</room>
                 <description><![CDATA[]]></description>
@@ -76,7 +76,7 @@
         
             
             <event id="">
-                <title>Announcement of the eccenca best poster awards</title>
+                <title>Ankündigung der eccenca Poster Preise</title>
                 <date>2021-07-07T13:10:00Z</date>
                 <start>13:10</start>
                 <duration>P0Y0M0DT0H5M0.000S</duration>
@@ -88,34 +88,8 @@
             </event>
         
             
-            <event id="101">
-                <title>Welcome</title>
-                <date>2021-07-07T09:00:00Z</date>
-                <start>09:00</start>
-                <duration></duration>
-                <person>Natanael Arndt, Sebastian Tramp</person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#begruessung</slug>
-            </event>
-        
-            
-            <event id="998">
-                <title>Mittagspause</title>
-                <date>2021-07-07T13:15:00Z</date>
-                <start>13:15</start>
-                <duration>P0Y0M0DT1H0M0.000S</duration>
-                <person></person>
-                <track>Break</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
-            </event>
-        
-            
             <event id="1012">
-                <title>1 Minute Pitches of the Studenten</title>
+                <title>1 Minute Pitches der Studenten</title>
                 <date>2021-07-07T13:15:00Z</date>
                 <start>13:15</start>
                 <duration>P0Y0M0DT0H20M0.000S</duration>
@@ -127,21 +101,8 @@
             </event>
         
             
-            <event id="">
-                <title>Poster Presentation of the Student Projects</title>
-                <date>2021-07-07T13:35:00Z</date>
-                <start>13:35</start>
-                <duration>P0Y0M0DT0H55M0.000S</duration>
-                <person></person>
-                <track>Main Track</track>
-                <room>Main Track</room>
-                <description><![CDATA[]]></description>
-                <slug>https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979</slug>
-            </event>
-        
-            
             <event id="998">
-                <title>Kaffeepause</title>
+                <title>Coffee Break</title>
                 <date>2021-07-07T15:30:00Z</date>
                 <start>15:30</start>
                 <duration>P0Y0M0DT0H30M0.000S</duration>
@@ -165,18 +126,57 @@
                 <slug>https://lswt2021.aksw.org/#closing</slug>
             </event>
         
-        </room>
-    
-        <room name="DBpedia Track (July 8th)">
+            
+            <event id="101">
+                <title>Begrüßung</title>
+                <date>2021-07-07T09:00:00Z</date>
+                <start>09:00</start>
+                <duration></duration>
+                <person>Sebastian Tramp, Natanael Arndt</person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#begruessung</slug>
+            </event>
+        
             
             <event id="">
-                <title>DBpedia Tutorial</title>
+                <title>Poster Presentation of the Student Projects</title>
+                <date>2021-07-07T13:35:00Z</date>
+                <start>13:35</start>
+                <duration>P0Y0M0DT0H55M0.000S</duration>
+                <person></person>
+                <track>Main Track</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/9917df0b-7834-4b54-93e3-44b4b5b4c979</slug>
+            </event>
+        
+            
+            <event id="998">
+                <title>Lunch Break</title>
+                <date>2021-07-07T13:15:00Z</date>
+                <start>13:15</start>
+                <duration>P0Y0M0DT1H0M0.000S</duration>
+                <person></person>
+                <track>Break</track>
+                <room>Main Track</room>
+                <description><![CDATA[]]></description>
+                <slug>https://lswt2021.aksw.org/#MittagsPause</slug>
+            </event>
+        
+        </room>
+    
+        <room name="DBpedia Track (8. Juli)">
+            
+            <event id="">
+                <title>DBpedia Tutorial </title>
                 <date>2021-07-08T13:00:00Z</date>
                 <start>13:00</start>
                 <duration>P0Y0M0DT3H0M0.000S</duration>
                 <person></person>
-                <track>DBpedia Track (July 8th)</track>
-                <room>DBpedia Track (July 8th)</room>
+                <track>DBpedia Track (8. Juli)</track>
+                <room>DBpedia Track (8. Juli)</room>
                 <description><![CDATA[]]></description>
                 <slug>https://lswt2021.aksw.org/#dbpedia</slug>
             </event>
