@@ -1,7 +1,7 @@
 <div class="section" id="Partner">
   <div class="container">
     {% assign partners = rootResource | rdf_property: "schema:partner" %}
-    <h2 {{ partners | rdf_property: "rdfs:label", page.language }}</h2>
+    <h2>{{ partners | rdf_property: "rdfs:label", page.language }}</h2>
     {% assign partnersList = partners | rdf_container %}
     <div class="lswt-card-columns">
       {% for partner in partnersList %}
